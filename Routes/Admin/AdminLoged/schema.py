@@ -13,10 +13,10 @@ class AddTopics(BaseModel):
 
 """"
 {
-    "items": [
-        {"topic": "hello", "criteria": "david"},
-        {"topic": "hii", "criteria": "silly"},
-        {"topic": "hey", "criteria": "kenna"}
+    "data_set": [
+        {"topic_name": "hello", "criteria": "david"},
+        {"topic_name": "hii", "criteria": "silly"},
+        {"topic_name": "hey", "criteria": "kenna"}
     ]
 }
 """

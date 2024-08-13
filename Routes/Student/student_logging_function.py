@@ -5,7 +5,7 @@ from Functions.function import verify_password, password_hash, get_sl_DateTime
 from Loggers.log import err_log, app_log
 
 
-# student logging check db is valied student
+# student logging check db is valid student
 def check_registered_student(db: Session, username: str, password: str):
     try:
         result = db.query(models.User).filter(models.User.user_name == username, models.User.verify == True,

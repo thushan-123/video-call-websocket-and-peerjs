@@ -9,6 +9,7 @@ import os
 from dotenv import load_dotenv
 from Routes.Admin import admin
 from Routes.Student import student_logging
+from Routes.Multimedia import websocket
 from Loggers.log import app_log, err_log
 
 load_dotenv()
@@ -42,3 +43,4 @@ app.add_middleware(
 
 app.include_router(admin.router, prefix="/api/v1/admin")
 app.include_router(student_logging.router, prefix="/api/v1/user")
+app.include_router(websocket.router)

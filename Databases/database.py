@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 MYSQL_DB_URL = os.getenv("MYSQL_DATABASE_URL")
-print(MYSQL_DB_URL)
+
 
 # POSTGRESQL_DATABASE_URL = "postgresql://root:thush@localhost/school"
 

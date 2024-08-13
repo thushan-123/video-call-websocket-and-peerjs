@@ -59,3 +59,6 @@
 2024-08-12 22:39:31,398 - ERROR - |auth - verify_token| -> Signature verification failed.
 2024-08-13 16:25:19,865 - ERROR - cannot create tables in mariaDB - (pymysql.err.OperationalError) (1698, "Access denied for user 'thush'@'localhost'")
 (Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-13 19:51:39,083 - ERROR - |authAdmin -> authenticate_admin| - 'NoneType' object has no attribute 'password'
+2024-08-13 21:56:59,842 - ERROR - /user/logged/updateStudent -> argument of type 'NoneType' is not iterable
+2024-08-13 22:02:35,978 - ERROR - /user/logged/updateStudent -> unhashable type: 'slice'

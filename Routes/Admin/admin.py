@@ -46,31 +46,6 @@ class ChangePassword(BaseModel):
     password: str
 
 
-"""
-@router.post("/addAdmin", response_model=AdminCreate)
-async def create_admin(admin: AdminCreate, db: Session = Depends(get_db)):
-    try:
-        # Check email is already taken
-        existing_admin = db.query(models.Admin).filter(models.Admin.admin_email == admin.admin_email).first()
-        if existing_admin:
-            raise HTTPException(status_code=400, detail="email already taken")
-        else:
-            hashed = password_hash(admin.password)  # Password hashed Function(password_hash)-> sha1
-            db_admin = models.Admin(admin_name=admin.admin_name, admin_email=admin.admin_email, password=hashed)
-            db.add(db_admin)
-            db.commit()
-            db.refresh(db_admin)
-            app_log.info(f"Create Admin [{admin.admin_name} , {admin.admin_email}]")
-            return {"status": "success"}
-
-    except Exception as e:
-        db.rollback()
-        err_log.error(f"addAdmin - {e}")
-        raise HTTPException(status_code=500, detail="email is already taken")
-        #async def admin_login(admin: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
-"""
-
-
 @router.post("/adminLogin")
 async def admin_login(admin: AdminLogin, db: Session = Depends(get_db)):
     try:

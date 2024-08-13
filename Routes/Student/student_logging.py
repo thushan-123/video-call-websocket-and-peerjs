@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
 from fastapi.responses import JSONResponse
-from Functions.function import get_db, get_OTP, get_sl_DateTime, password_hash, is_valid_email, \
+from Functions.function import get_db, get_OTP, password_hash, is_valid_email, \
     generate_unique_username, get_gen_password
 from Authorized.auth import verify_token, create_access_token
 from Databases.redis_connection import redis_otp_client

@@ -1,0 +1,685 @@
+2024-08-05 10:27:31,527 - INFO - Database is created
+2024-08-05 10:29:29,705 - INFO - Database is created
+2024-08-05 10:30:33,090 - INFO - Create Admin [admin , thushanmadhusanka3@gmail.com]
+2024-08-05 10:31:58,626 - INFO - Database is created
+2024-08-05 10:32:23,698 - INFO - Database is created
+2024-08-05 10:32:31,520 - INFO - Create Admin [admin , thushanmadhusanka3@gmail.com]
+2024-08-05 10:33:09,088 - INFO - Database is created
+2024-08-05 10:34:02,171 - INFO - Database is created
+2024-08-05 10:49:55,454 - INFO - Database is created
+2024-08-05 10:50:28,012 - INFO - Database is created
+2024-08-05 10:56:19,182 - INFO - Database is created
+2024-08-05 10:57:26,660 - INFO - Database is created
+2024-08-05 10:58:28,835 - INFO - Database is created
+2024-08-05 10:59:33,336 - INFO - Database is created
+2024-08-05 11:05:02,899 - INFO - Database is created
+2024-08-05 12:53:02,371 - INFO - Database is created
+2024-08-05 13:07:30,546 - INFO - Database is created
+2024-08-05 13:08:33,585 - INFO - Database is created
+2024-08-05 13:13:35,268 - INFO - Database is created
+2024-08-05 13:15:33,586 - INFO - Database is created
+2024-08-05 13:26:18,210 - INFO - Database is created
+2024-08-05 13:26:57,901 - INFO - Database is created
+2024-08-05 13:49:30,285 - INFO - Create Admin [thush , thushanmadusan123@gmail.com]
+2024-08-05 13:50:57,878 - INFO - Create Admin [string , string]
+2024-08-05 13:59:33,328 - INFO - Database is created
+2024-08-05 14:10:27,968 - INFO - Database is created
+2024-08-05 14:10:32,960 - INFO - |authAdmin - authenticate_admin| - get data from admin table
+2024-08-05 14:17:27,727 - INFO - Database is created
+2024-08-05 14:26:02,234 - INFO - Database is created
+2024-08-05 14:44:57,350 - INFO - Database is created
+2024-08-05 14:45:13,970 - INFO - |authAdmin - authenticate_admin| - compare a password [True, False]
+2024-08-05 14:45:13,970 - INFO - /api/adminLogin - send response -> status: False (username|password incorrect)
+2024-08-05 14:45:16,868 - INFO - |authAdmin - authenticate_admin| - compare a password [True, False]
+2024-08-05 14:45:16,868 - INFO - /api/adminLogin - send response -> status: False (username|password incorrect)
+2024-08-05 14:49:10,968 - INFO - Database is created
+2024-08-05 14:49:40,874 - INFO - Database is created
+2024-08-05 15:19:50,721 - INFO - Database is created
+2024-08-05 15:27:10,277 - INFO - Database is created
+2024-08-05 15:27:21,609 - INFO - |authAdmin - authenticate_admin| - compare a password [True, False]
+2024-08-05 15:27:21,609 - INFO - /api/adminLogin - send response -> status: False (username|password incorrect)
+2024-08-05 15:27:32,301 - INFO - |authAdmin - authenticate_admin| - compare a password [True, False]
+2024-08-05 15:27:32,301 - INFO - /api/adminLogin - send response -> status: False (username|password incorrect)
+2024-08-05 15:27:43,165 - INFO - |authAdmin - authenticate_admin| - compare a password [True, False]
+2024-08-05 15:27:43,166 - INFO - |auth - create_access_token| create successfully
+2024-08-05 15:27:43,167 - INFO - /api/adminLogin - send response -> status: success
+2024-08-05 15:30:30,350 - INFO - Database is created
+2024-08-05 15:51:07,024 - INFO - |authAdmin - authenticate_admin| - compare a password [True, False]
+2024-08-05 15:51:07,026 - INFO - |auth - create_access_token| create successfully
+2024-08-05 15:51:07,026 - INFO - /api/adminLogin - send response -> status: success
+2024-08-05 17:29:59,706 - INFO - Database is created
+2024-08-05 17:31:26,243 - INFO - |authAdmin - authenticate_admin| - compare a password [True, False]
+2024-08-05 17:31:26,245 - INFO - |auth - create_access_token| create successfully
+2024-08-05 17:31:26,245 - INFO - /api/adminLogin - send response -> status: success
+2024-08-05 20:23:22,733 - INFO - Database is created
+2024-08-05 22:00:03,568 - INFO - Database is created
+2024-08-05 22:00:08,007 - INFO - |authAdmin - authenticate_admin| - get result from admin db using username, email
+2024-08-05 22:00:08,007 - INFO - /admin/forgetPassword - check valued admin
+2024-08-05 22:01:16,472 - INFO - |authAdmin - authenticate_admin| - get result from admin db using username, email
+2024-08-05 22:01:16,472 - INFO - /admin/forgetPassword - check valued admin
+2024-08-05 22:01:19,444 - INFO - Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-05 22:11:11,675 - INFO - Database is created
+2024-08-05 22:11:21,721 - INFO - |authAdmin - authenticate_admin| - get result from admin db using username, email
+2024-08-05 22:11:21,721 - INFO - /admin/forgetPassword - check valued admin
+2024-08-05 22:11:24,588 - INFO - /admin/forgetPassword - Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-05 22:14:01,352 - INFO - |authAdmin - authenticate_admin| - compare a password [True, False]
+2024-08-05 22:14:01,353 - INFO - |authAdmin - authenticate_admin| - get result from admin db using username
+2024-08-05 22:14:01,353 - INFO - |auth - create_access_token| create successfully
+2024-08-05 22:14:01,353 - INFO - /admin/adminLogin - send response -> status: success
+2024-08-05 22:16:39,338 - INFO - |authAdmin - authenticate_admin| - get result from admin db using username, email
+2024-08-05 22:16:39,338 - INFO - /admin/forgetPassword - check valued admin
+2024-08-05 22:17:35,498 - INFO - Database is created
+2024-08-05 22:17:58,072 - INFO - |authAdmin - authenticate_admin| - get result from admin db using username, email
+2024-08-05 22:17:58,072 - INFO - /admin/forgetPassword - check valued admin
+2024-08-05 22:18:01,104 - INFO - /admin/forgetPassword - Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-05 22:21:58,376 - INFO - Database is created
+2024-08-05 22:23:49,920 - INFO - Database is created
+2024-08-05 22:25:45,811 - INFO - |authAdmin - authenticate_admin| - get result from admin db using username, email
+2024-08-05 22:25:45,811 - INFO - /admin/forgetPassword - check valued admin
+2024-08-05 22:25:48,811 - INFO - /admin/forgetPassword - Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-05 22:26:20,338 - INFO - Database is created
+2024-08-05 22:28:20,167 - INFO - Database is created
+2024-08-05 22:28:27,694 - INFO - |authAdmin - authenticate_admin| - get result from admin db using username, email
+2024-08-05 22:28:27,694 - INFO - /admin/forgetPassword - check valued admin
+2024-08-05 22:28:30,808 - INFO - /admin/forgetPassword - Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-06 10:16:25,241 - INFO - Database is created
+2024-08-06 21:00:27,848 - INFO - Database is created
+2024-08-06 21:00:27,849 - INFO - redis DB is Connected successfully
+2024-08-07 16:02:38,178 - INFO - redis database is connected successfully
+2024-08-07 16:05:40,452 - INFO - redis database is connected successfully
+2024-08-07 16:07:41,289 - INFO - redis database is connected successfully
+2024-08-07 16:14:29,758 - INFO - redis database is connected successfully
+2024-08-07 16:14:29,833 - INFO - Database is created
+2024-08-07 16:15:24,655 - INFO - redis database is connected successfully
+2024-08-07 16:15:24,720 - INFO - Database is created
+2024-08-07 16:16:49,649 - INFO - redis database is connected successfully
+2024-08-07 16:16:49,711 - INFO - Database is created
+2024-08-07 16:18:38,927 - INFO - |authAdmin - verify_admin_password| -> get result from admin db using username, email
+2024-08-07 16:18:38,927 - INFO - /admin/forgetPassword - check valued admin
+2024-08-07 16:21:13,043 - INFO - redis database is connected successfully
+2024-08-07 16:21:13,115 - INFO - Database is created
+2024-08-07 16:21:28,813 - INFO - |authAdmin - verify_admin_password| -> get result from admin db using username, email
+2024-08-07 16:21:28,813 - INFO - /admin/forgetPassword - check valued admin
+2024-08-07 16:23:25,124 - INFO - redis database is connected successfully
+2024-08-07 16:23:25,197 - INFO - Database is created
+2024-08-07 16:27:27,175 - INFO - redis database is connected successfully
+2024-08-07 16:27:27,243 - INFO - Database is created
+2024-08-07 16:27:31,778 - INFO - |authAdmin - verify_admin_password| -> get result from admin db using username, email
+2024-08-07 16:27:31,779 - INFO - /admin/forgetPassword - check valued admin
+2024-08-07 16:30:26,319 - INFO - redis database is connected successfully
+2024-08-07 16:30:26,406 - INFO - Database is created
+2024-08-07 16:30:28,635 - INFO - |authAdmin - verify_admin_password| -> get result from admin db using username, email
+2024-08-07 16:30:28,635 - INFO - /admin/forgetPassword - check valued admin
+2024-08-07 16:30:31,629 - INFO - /admin/forgetPassword -> Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-07 16:32:08,128 - INFO - redis database is connected successfully
+2024-08-07 16:32:08,190 - INFO - Database is created
+2024-08-07 16:32:21,988 - INFO - redis database is connected successfully
+2024-08-07 16:32:22,051 - INFO - Database is created
+2024-08-07 16:34:30,550 - INFO - |authAdmin - verify_admin_password| -> get result from admin db using username, email
+2024-08-07 16:34:30,550 - INFO - /admin/forgetPassword - check valued admin
+2024-08-07 16:34:33,494 - INFO - /admin/forgetPassword -> Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-07 16:34:53,954 - INFO - /admin/otp -> OTP not equal 
+2024-08-07 16:36:46,338 - INFO - redis database is connected successfully
+2024-08-07 16:36:46,399 - INFO - Database is created
+2024-08-07 16:36:52,733 - INFO - |authAdmin - verify_admin_password| -> get result from admin db using username, email
+2024-08-07 16:36:52,733 - INFO - /admin/forgetPassword - check valued admin
+2024-08-07 16:36:56,101 - INFO - /admin/forgetPassword -> Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-07 16:37:15,945 - INFO - /admin/otp -> OTP not equal 
+2024-08-07 16:38:04,524 - INFO - redis database is connected successfully
+2024-08-07 16:38:04,587 - INFO - Database is created
+2024-08-07 16:38:14,736 - INFO - |authAdmin - verify_admin_password| -> get result from admin db using username, email
+2024-08-07 16:38:14,736 - INFO - /admin/forgetPassword - check valued admin
+2024-08-07 16:38:18,188 - INFO - /admin/forgetPassword -> Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-07 16:38:40,770 - INFO - /admin/otp -> OTP not equal 
+2024-08-07 16:39:43,363 - INFO - redis database is connected successfully
+2024-08-07 16:39:43,425 - INFO - Database is created
+2024-08-07 16:39:53,694 - INFO - |authAdmin - verify_admin_password| -> get result from admin db using username, email
+2024-08-07 16:39:53,694 - INFO - /admin/forgetPassword - check valued admin
+2024-08-07 16:39:56,734 - INFO - /admin/forgetPassword -> Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-07 16:40:23,693 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-07 16:40:23,693 - INFO - /admin/otp -> OTP is equal | temp_token send to the user
+2024-08-07 16:44:00,178 - INFO - redis database is connected successfully
+2024-08-07 16:44:00,242 - INFO - Database is created
+2024-08-07 16:44:06,800 - INFO - |authAdmin - verify_admin_password| -> get result from admin db using username, email
+2024-08-07 16:44:06,801 - INFO - /admin/forgetPassword - check valued admin
+2024-08-07 16:44:09,695 - INFO - /admin/forgetPassword -> Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-07 16:44:30,696 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-07 16:44:30,696 - INFO - |auth - create_access_token| create successfully
+2024-08-07 16:44:30,696 - INFO - /admin/otp -> OTP is equal | temp_token send to the user
+2024-08-07 16:47:33,962 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-07 16:47:33,962 - INFO - /admin/changePassword -> OTP is equal | verify the token
+2024-08-07 16:47:33,968 - INFO - |authAdmin - admin_password_change| -> admin update password 
+2024-08-07 16:47:33,968 - INFO - /admin/changePassword -> update to the admin password
+2024-08-07 16:48:38,008 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-07 16:48:38,008 - INFO - /admin/adminLogin - send response -> status: False (username|password incorrect)
+2024-08-07 16:52:54,318 - INFO - redis database is connected successfully
+2024-08-07 16:52:54,388 - INFO - Database is created
+2024-08-07 16:52:56,325 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-07 16:52:56,326 - INFO - /admin/adminLogin - send response -> status: False (username|password incorrect)
+2024-08-07 16:53:26,586 - INFO - redis database is connected successfully
+2024-08-07 16:53:26,649 - INFO - Database is created
+2024-08-07 16:53:28,918 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-07 16:53:28,918 - INFO - /admin/adminLogin - send response -> status: False (username|password incorrect)
+2024-08-07 16:55:51,658 - INFO - redis database is connected successfully
+2024-08-07 16:55:51,722 - INFO - Database is created
+2024-08-07 16:58:31,117 - INFO - |authAdmin - verify_admin_password| -> get result from admin db using username, email
+2024-08-07 16:58:31,117 - INFO - /admin/forgetPassword - check valued admin
+2024-08-07 16:58:34,019 - INFO - /admin/forgetPassword -> Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-08-07 16:58:57,059 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-07 16:58:57,059 - INFO - |auth - create_access_token| create successfully
+2024-08-07 16:58:57,064 - INFO - /admin/otp -> OTP is equal | temp_token send to the user
+2024-08-07 16:59:31,682 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-07 16:59:31,682 - INFO - /admin/changePassword -> OTP is equal | verify the token
+2024-08-07 16:59:31,687 - INFO - |authAdmin - admin_password_change| -> admin update password 
+2024-08-07 16:59:31,687 - INFO - /admin/changePassword -> update to the admin password
+2024-08-07 17:00:12,565 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-07 17:00:12,567 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-07 17:00:12,567 - INFO - |auth - create_access_token| create successfully
+2024-08-07 17:00:12,567 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-07 19:58:25,126 - INFO - redis database is connected successfully
+2024-08-07 19:59:02,941 - INFO - redis database is connected successfully
+2024-08-07 19:59:03,003 - INFO - Database is created
+2024-08-07 20:07:20,622 - INFO - redis database is connected successfully
+2024-08-07 20:08:19,065 - INFO - redis database is connected successfully
+2024-08-07 20:09:17,132 - INFO - redis database is connected successfully
+2024-08-07 20:09:17,196 - INFO - Database is created
+2024-08-07 20:12:00,215 - INFO - redis database is connected successfully
+2024-08-07 20:12:00,281 - INFO - Database is created
+2024-08-07 20:22:20,415 - INFO - redis database is connected successfully
+2024-08-07 20:55:07,743 - INFO - redis database is connected successfully
+2024-08-07 21:00:14,766 - INFO - redis database is connected successfully
+2024-08-07 21:02:35,970 - INFO - redis database is connected successfully
+2024-08-07 21:05:56,516 - INFO - redis database is connected successfully
+2024-08-07 21:08:48,416 - INFO - redis database is connected successfully
+2024-08-07 21:09:19,074 - INFO - redis database is connected successfully
+2024-08-07 21:11:21,836 - INFO - redis database is connected successfully
+2024-08-07 21:11:43,820 - INFO - redis database is connected successfully
+2024-08-07 21:12:46,218 - INFO - redis database is connected successfully
+2024-08-07 21:27:24,862 - INFO - redis database is connected successfully
+2024-08-07 21:34:25,942 - INFO - redis database is connected successfully
+2024-08-07 21:37:22,534 - INFO - redis database is connected successfully
+2024-08-07 21:38:13,294 - INFO - redis database is connected successfully
+2024-08-07 21:40:07,634 - INFO - redis database is connected successfully
+2024-08-07 21:40:48,158 - INFO - redis database is connected successfully
+2024-08-07 21:45:38,409 - INFO - redis database is connected successfully
+2024-08-07 21:49:22,214 - INFO - redis database is connected successfully
+2024-08-07 21:56:47,852 - INFO - redis database is connected successfully
+2024-08-07 22:16:51,047 - INFO - redis database is connected successfully
+2024-08-07 22:16:51,113 - INFO - Database is created
+2024-08-07 22:17:45,228 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-07 22:17:45,229 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-07 22:17:45,229 - INFO - |auth - create_access_token| create successfully
+2024-08-07 22:17:45,229 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-07 22:22:15,720 - INFO - redis database is connected successfully
+2024-08-07 22:22:15,790 - INFO - Database is created
+2024-08-07 22:22:28,064 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-07 22:22:28,065 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-07 22:22:28,065 - INFO - |auth - create_access_token| create successfully
+2024-08-07 22:22:28,065 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-07 22:22:57,627 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-07 22:26:08,169 - INFO - redis database is connected successfully
+2024-08-07 22:26:08,243 - INFO - Database is created
+2024-08-08 18:53:15,694 - INFO - redis database is connected successfully
+2024-08-08 18:53:15,789 - INFO - Database is created
+2024-08-08 18:53:21,579 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-08 18:53:21,580 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-08 18:53:21,581 - INFO - |auth - create_access_token| create successfully
+2024-08-08 18:53:21,581 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-08 18:53:49,867 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 18:53:49,872 - INFO - /admin/logged/addTopics -> data_set insert successfully
+2024-08-08 19:03:02,372 - INFO - redis database is connected successfully
+2024-08-08 19:03:02,438 - INFO - Database is created
+2024-08-08 19:03:10,304 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-08 19:03:10,307 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-08 19:03:10,308 - INFO - |auth - create_access_token| create successfully
+2024-08-08 19:03:10,308 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-08 19:03:33,303 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 19:03:33,318 - INFO - /admin/logged/addTopics -> data_set insert fail
+2024-08-08 19:06:16,273 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 19:06:16,279 - INFO - |panel_function - add_topics| -> data add successfully hello
+2024-08-08 19:06:16,279 - INFO - /admin/logged/addTopics -> data_set insert successfully
+2024-08-08 19:06:16,290 - INFO - |panel_function - add_topics| -> data add successfully hii
+2024-08-08 19:06:16,291 - INFO - /admin/logged/addTopics -> data_set insert successfully
+2024-08-08 19:06:16,300 - INFO - |panel_function - add_topics| -> data add successfully hey
+2024-08-08 19:06:16,301 - INFO - /admin/logged/addTopics -> data_set insert successfully
+2024-08-08 19:29:28,904 - INFO - redis database is connected successfully
+2024-08-08 19:32:26,889 - INFO - redis database is connected successfully
+2024-08-08 19:34:38,730 - INFO - redis database is connected successfully
+2024-08-08 19:37:09,250 - INFO - redis database is connected successfully
+2024-08-08 19:38:25,051 - INFO - redis database is connected successfully
+2024-08-08 19:40:11,263 - INFO - redis database is connected successfully
+2024-08-08 19:40:11,331 - INFO - Database is created
+2024-08-08 19:40:56,591 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 19:41:48,542 - INFO - redis database is connected successfully
+2024-08-08 19:41:48,621 - INFO - Database is created
+2024-08-08 19:41:53,457 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 19:42:45,809 - INFO - redis database is connected successfully
+2024-08-08 19:42:45,880 - INFO - Database is created
+2024-08-08 19:42:49,336 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 19:45:09,501 - INFO - redis database is connected successfully
+2024-08-08 19:45:09,579 - INFO - Database is created
+2024-08-08 19:45:15,160 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 19:47:28,925 - INFO - redis database is connected successfully
+2024-08-08 19:47:28,992 - INFO - Database is created
+2024-08-08 19:47:32,804 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 20:03:28,052 - INFO - redis database is connected successfully
+2024-08-08 20:03:28,121 - INFO - Database is created
+2024-08-08 20:03:33,559 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 20:06:53,306 - INFO - redis database is connected successfully
+2024-08-08 20:06:53,384 - INFO - Database is created
+2024-08-08 20:06:57,310 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 20:17:08,907 - INFO - redis database is connected successfully
+2024-08-08 20:17:08,976 - INFO - Database is created
+2024-08-08 20:17:18,065 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 20:17:18,083 - INFO - |panel_function - get_topic_data| -> data retrieve success
+2024-08-08 20:17:18,083 - INFO - /admin/logged/addTopics -> data_list is send
+2024-08-08 20:18:20,269 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 20:18:20,271 - INFO - |panel_function - get_topic_data| -> data retrieve success
+2024-08-08 20:18:20,271 - INFO - /admin/logged/addTopics -> data_list is send
+2024-08-08 21:00:33,710 - INFO - redis database is connected successfully
+2024-08-08 21:00:33,779 - INFO - Database is created
+2024-08-08 21:03:06,539 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 21:10:01,705 - INFO - redis database is connected successfully
+2024-08-08 21:10:01,772 - INFO - Database is created
+2024-08-08 21:12:03,294 - INFO - redis database is connected successfully
+2024-08-08 21:12:03,364 - INFO - Database is created
+2024-08-08 21:12:18,579 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-08 21:12:18,581 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-08 21:12:18,581 - INFO - |auth - create_access_token| create successfully
+2024-08-08 21:12:18,581 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-08 21:12:50,505 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 21:12:50,511 - INFO - |panel_function - update_topic| -> data update success
+2024-08-08 21:12:50,511 - INFO - /admin/logged/updateTopic -> spoken is updated by admin
+2024-08-08 21:40:24,171 - INFO - redis database is connected successfully
+2024-08-08 21:44:19,425 - INFO - redis database is connected successfully
+2024-08-08 21:44:19,507 - INFO - Database is created
+2024-08-08 21:44:58,243 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 21:44:58,250 - INFO - |panel_function - delete_topic_data| -> data is deleted
+2024-08-08 21:45:31,737 - INFO - redis database is connected successfully
+2024-08-08 21:45:31,807 - INFO - Database is created
+2024-08-08 21:46:29,281 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-08 21:46:29,282 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-08 21:46:29,283 - INFO - |auth - create_access_token| create successfully
+2024-08-08 21:46:29,283 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-08 21:46:57,026 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 21:46:57,028 - INFO - |panel_function - delete_topic_data| -> data is deleted
+2024-08-08 21:48:16,229 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 21:48:16,234 - INFO - |panel_function - delete_topic_data| -> data is deleted
+2024-08-08 21:49:38,783 - INFO - redis database is connected successfully
+2024-08-08 21:49:38,855 - INFO - Database is created
+2024-08-08 21:49:50,171 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-08 21:49:50,175 - INFO - |panel_function - delete_topic_data| -> data is deleted
+2024-08-08 21:49:50,175 - INFO - /admin/logged/deleteTopic ->  is deleted 
+2024-08-09 10:30:32,167 - INFO - redis database is connected successfully
+2024-08-09 10:30:32,261 - INFO - Database is created
+2024-08-09 13:43:03,436 - INFO - redis database is connected successfully
+2024-08-09 13:43:03,513 - INFO - Database is created
+2024-08-09 13:43:09,943 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-09 13:43:09,944 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-09 13:43:09,944 - INFO - |auth - create_access_token| create successfully
+2024-08-09 13:43:09,944 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-09 13:43:49,342 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-09 13:47:24,277 - INFO - redis database is connected successfully
+2024-08-09 13:47:24,364 - INFO - Database is created
+2024-08-09 13:48:23,458 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-09 13:51:52,544 - INFO - redis database is connected successfully
+2024-08-09 13:51:52,616 - INFO - Database is created
+2024-08-09 13:51:55,783 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-09 13:55:46,578 - INFO - redis database is connected successfully
+2024-08-09 13:55:46,653 - INFO - Database is created
+2024-08-09 13:55:52,817 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-09 13:55:52,842 - INFO - |student_function - add_student| -> student added successfully
+2024-08-09 13:55:55,763 - INFO - /admin/logged/student/addStudent -> email send and student data add successfully
+2024-08-09 13:56:17,389 - INFO - redis database is connected successfully
+2024-08-09 13:56:17,466 - INFO - Database is created
+2024-08-09 19:52:19,637 - INFO - redis database is connected successfully
+2024-08-09 20:11:16,275 - INFO - redis database is connected successfully
+2024-08-09 20:26:56,032 - INFO - redis database is connected successfully
+2024-08-09 20:26:56,116 - INFO - Database is created
+2024-08-09 20:37:02,654 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-09 20:37:02,655 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-09 20:37:02,655 - INFO - |auth - create_access_token| create successfully
+2024-08-09 20:37:02,655 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-09 20:37:44,344 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-09 20:37:44,355 - INFO - |student_function - update_student| -> student update successfully
+2024-08-09 20:37:44,355 - INFO - /admin/logged/student/updateStudent -> update successfully
+2024-08-09 20:42:34,110 - INFO - redis database is connected successfully
+2024-08-09 20:42:34,184 - INFO - Database is created
+2024-08-09 23:00:50,458 - INFO - redis database is connected successfully
+2024-08-09 23:00:50,537 - INFO - Database is created
+2024-08-10 12:26:08,397 - INFO - redis database is connected successfully
+2024-08-10 12:26:08,494 - INFO - Database is created
+2024-08-10 12:26:23,037 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-10 12:26:23,038 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-10 12:26:23,038 - INFO - |auth - create_access_token| create successfully
+2024-08-10 12:26:23,038 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-10 12:26:43,279 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 12:26:43,286 - INFO - |student_function - block_student| -> successfully blocked student
+2024-08-10 12:26:43,286 - INFO - /admin/logged/student/blockStudent -> successfully blocked
+2024-08-10 12:27:56,524 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 12:27:56,529 - INFO - |student_function - delete_student| -> delete successfully
+2024-08-10 12:27:56,529 - INFO - /admin/logged/student/deleteStudent -> delete student
+2024-08-10 12:41:07,307 - INFO - redis database is connected successfully
+2024-08-10 12:41:35,971 - INFO - redis database is connected successfully
+2024-08-10 12:43:06,719 - INFO - redis database is connected successfully
+2024-08-10 12:48:45,576 - INFO - redis database is connected successfully
+2024-08-10 12:49:16,088 - INFO - redis database is connected successfully
+2024-08-10 13:07:59,905 - INFO - redis database is connected successfully
+2024-08-10 13:11:08,835 - INFO - redis database is connected successfully
+2024-08-10 13:11:49,824 - INFO - redis database is connected successfully
+2024-08-10 13:13:17,757 - INFO - redis database is connected successfully
+2024-08-10 13:14:32,715 - INFO - redis database is connected successfully
+2024-08-10 13:15:20,422 - INFO - redis database is connected successfully
+2024-08-10 13:15:51,039 - INFO - redis database is connected successfully
+2024-08-10 13:16:35,810 - INFO - redis database is connected successfully
+2024-08-10 13:16:46,319 - INFO - redis database is connected successfully
+2024-08-10 15:44:41,549 - INFO - redis database is connected successfully
+2024-08-10 15:44:41,657 - INFO - Database is created
+2024-08-10 15:45:34,162 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-10 15:45:34,164 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-10 15:45:34,164 - INFO - |auth - create_access_token| create successfully
+2024-08-10 15:45:34,164 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-10 15:45:59,567 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 15:45:59,571 - INFO - |student_function - get_student_detail| -> get student detail query successfully execute
+2024-08-10 15:50:09,043 - INFO - redis database is connected successfully
+2024-08-10 15:50:09,122 - INFO - Database is created
+2024-08-10 15:50:12,962 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 15:50:36,552 - INFO - redis database is connected successfully
+2024-08-10 15:50:36,629 - INFO - Database is created
+2024-08-10 15:50:39,548 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 15:50:39,555 - INFO - |student_function - get_student_detail| -> get student detail query successfully execute
+2024-08-10 15:51:20,412 - INFO - redis database is connected successfully
+2024-08-10 15:51:20,509 - INFO - Database is created
+2024-08-10 15:51:24,275 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 15:51:24,281 - INFO - |student_function - get_student_detail| -> get student detail query successfully execute
+2024-08-10 15:51:59,371 - INFO - redis database is connected successfully
+2024-08-10 15:51:59,462 - INFO - Database is created
+2024-08-10 15:52:05,304 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 15:52:05,309 - INFO - |student_function - get_student_detail| -> get student detail query successfully execute
+2024-08-10 15:54:03,531 - INFO - redis database is connected successfully
+2024-08-10 15:54:03,616 - INFO - Database is created
+2024-08-10 15:54:07,642 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 15:54:07,642 - INFO - |student_function - get_student_detail| -> get student detail query successfully execute
+2024-08-10 15:56:23,485 - INFO - redis database is connected successfully
+2024-08-10 15:56:23,563 - INFO - Database is created
+2024-08-10 15:57:06,146 - INFO - redis database is connected successfully
+2024-08-10 15:57:06,239 - INFO - Database is created
+2024-08-10 15:57:08,881 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 15:57:08,883 - INFO - |student_function - get_student_detail| -> get student detail query successfully execute
+2024-08-10 15:59:24,403 - INFO - redis database is connected successfully
+2024-08-10 15:59:24,488 - INFO - Database is created
+2024-08-10 15:59:29,156 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 15:59:29,158 - INFO - |student_function - get_student_detail| -> get student detail query successfully execute
+2024-08-10 16:00:52,945 - INFO - redis database is connected successfully
+2024-08-10 16:00:53,028 - INFO - Database is created
+2024-08-10 16:01:12,004 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 16:01:12,006 - INFO - |student_function - get_student_detail| -> get student detail query successfully execute
+2024-08-10 16:25:02,981 - INFO - redis database is connected successfully
+2024-08-10 16:25:03,061 - INFO - Database is created
+2024-08-10 16:27:44,033 - INFO - redis database is connected successfully
+2024-08-10 16:27:44,119 - INFO - Database is created
+2024-08-10 16:40:28,339 - INFO - redis database is connected successfully
+2024-08-10 16:58:42,965 - INFO - redis database is connected successfully
+2024-08-10 17:01:58,287 - INFO - redis database is connected successfully
+2024-08-10 17:02:15,250 - INFO - redis database is connected successfully
+2024-08-10 17:03:10,741 - INFO - redis database is connected successfully
+2024-08-10 17:03:41,126 - INFO - redis database is connected successfully
+2024-08-10 17:14:01,441 - INFO - redis database is connected successfully
+2024-08-10 17:14:08,460 - INFO - redis database is connected successfully
+2024-08-10 17:23:05,917 - INFO - redis database is connected successfully
+2024-08-10 17:23:05,998 - INFO - Database is created
+2024-08-10 17:23:44,466 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-10 17:23:44,468 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-10 17:23:44,469 - INFO - |auth - create_access_token| create successfully
+2024-08-10 17:23:44,469 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-10 17:25:11,953 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 17:25:11,953 - INFO - |student_function - search_student| -> search value is not int or another error
+2024-08-10 17:26:51,946 - INFO - redis database is connected successfully
+2024-08-10 17:26:52,053 - INFO - Database is created
+2024-08-10 17:37:37,993 - INFO - redis database is connected successfully
+2024-08-10 17:37:38,076 - INFO - Database is created
+2024-08-10 17:51:42,677 - INFO - redis database is connected successfully
+2024-08-10 17:51:42,756 - INFO - Database is created
+2024-08-10 18:10:28,648 - INFO - redis database is connected successfully
+2024-08-10 18:10:28,731 - INFO - Database is created
+2024-08-10 18:10:53,517 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-10 18:10:53,519 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-10 18:10:53,519 - INFO - |auth - create_access_token| create successfully
+2024-08-10 18:10:53,520 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-10 18:11:15,945 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 18:11:15,945 - INFO - |student_function - search_student| -> search value is not int or another error/ go to string search
+2024-08-10 18:11:15,961 - INFO - |student_function - search_student| -> search by string trainer_id/ user_name/ f_name/ l_name
+2024-08-10 18:11:15,961 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 18:13:19,975 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 18:13:19,975 - INFO - |student_function - search_student| -> search value is not int or another error/ go to string search
+2024-08-10 18:13:19,981 - INFO - |student_function - search_student| -> search by string trainer_id/ user_name/ f_name/ l_name
+2024-08-10 18:13:19,981 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 18:13:36,214 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 18:13:36,217 - INFO - |student_function - search_student| -> search value is int , get result id or mobile
+2024-08-10 18:13:36,217 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 18:13:49,479 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 18:13:49,481 - INFO - |student_function - search_student| -> search value is int , get result id or mobile
+2024-08-10 18:13:49,481 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 18:52:06,700 - INFO - redis database is connected successfully
+2024-08-10 18:52:06,806 - INFO - Database is created
+2024-08-10 19:51:42,906 - INFO - redis database is connected successfully
+2024-08-10 19:51:43,196 - INFO - Database is created
+2024-08-10 20:06:15,232 - INFO - redis database is connected successfully
+2024-08-10 20:06:15,393 - INFO - Database is created
+2024-08-10 20:06:31,985 - INFO - redis database is connected successfully
+2024-08-10 20:06:32,074 - INFO - Database is created
+2024-08-10 20:06:53,787 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-10 20:06:53,788 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-10 20:06:53,788 - INFO - |auth - create_access_token| create successfully
+2024-08-10 20:06:53,788 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-10 20:07:25,259 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 20:07:25,259 - INFO - |student_function - search_student| -> search value is not int or another error/ go to string search
+2024-08-10 20:07:25,268 - INFO - |student_function - search_student| -> search by string trainer_id/ user_name/ f_name/ l_name
+2024-08-10 20:07:25,268 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 20:10:16,306 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 20:10:16,312 - INFO - |student_function - search_student| -> search value is int , get result id or mobile
+2024-08-10 20:10:16,312 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 20:10:29,535 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 20:10:29,535 - INFO - |student_function - search_student| -> search value is not int or another error/ go to string search
+2024-08-10 20:10:29,537 - INFO - |student_function - search_student| -> search by string trainer_id/ user_name/ f_name/ l_name
+2024-08-10 20:10:29,537 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 20:19:45,714 - INFO - redis database is connected successfully
+2024-08-10 20:19:45,824 - INFO - Database is created
+2024-08-10 20:19:49,107 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 20:19:49,107 - INFO - |student_function - search_student| -> search value is not int or another error/ go to string search
+2024-08-10 20:19:49,107 - INFO - |student_function - search_student| -> search without email
+2024-08-10 20:19:49,126 - INFO - |student_function - search_student| -> search by string trainer_id/ user_name/ f_name/ l_name
+2024-08-10 20:19:49,126 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 20:21:49,061 - INFO - redis database is connected successfully
+2024-08-10 20:21:49,199 - INFO - Database is created
+2024-08-10 20:21:54,714 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 20:21:54,714 - INFO - |student_function - search_student| -> search value is not int or another error/ go to string search
+2024-08-10 20:21:54,714 - INFO - |student_function - search_student| -> search without email
+2024-08-10 20:21:54,728 - INFO - |student_function - search_student| -> search by string trainer_id/ user_name/ f_name/ l_name
+2024-08-10 20:21:54,728 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 20:37:52,710 - INFO - redis database is connected successfully
+2024-08-10 20:41:29,321 - INFO - redis database is connected successfully
+2024-08-10 20:48:54,052 - INFO - redis database is connected successfully
+2024-08-10 20:48:54,135 - INFO - Database is created
+2024-08-10 20:49:06,453 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-10 20:49:06,454 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-10 20:49:06,454 - INFO - |auth - create_access_token| create successfully
+2024-08-10 20:49:06,454 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-10 20:49:35,235 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 20:49:35,239 - INFO - |student_function - get_student_detail| -> get student detail query successfully execute
+2024-08-10 20:49:35,239 - INFO - /admin/logged/student/getAllStudent -> get all student details
+2024-08-10 20:50:46,871 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 20:50:46,875 - INFO - |student_function - search_student| -> search value is int , get result id or mobile
+2024-08-10 20:50:46,875 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 20:51:21,900 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 20:51:21,903 - INFO - |student_function - search_student| -> search value is int , get result id or mobile
+2024-08-10 20:51:21,903 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 20:51:51,832 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 20:51:51,832 - INFO - |student_function - search_student| -> search value is not int or another error/ go to string search
+2024-08-10 20:51:51,833 - INFO - |student_function - search_student| -> search without email
+2024-08-10 20:51:51,842 - INFO - |student_function - search_student| -> search by string trainer_id/ user_name/ f_name/ l_name
+2024-08-10 20:51:51,842 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 20:51:59,592 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 20:51:59,592 - INFO - |student_function - search_student| -> search value is not int or another error/ go to string search
+2024-08-10 20:51:59,592 - INFO - |student_function - search_student| -> search without email
+2024-08-10 20:51:59,596 - INFO - |student_function - search_student| -> search by string trainer_id/ user_name/ f_name/ l_name
+2024-08-10 20:51:59,596 - INFO - /admin/logged/student/searchStudent -> get search result in students
+2024-08-10 21:17:51,612 - INFO - redis database is connected successfully
+2024-08-10 21:17:51,696 - INFO - Database is created
+2024-08-10 21:18:17,813 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-10 21:18:17,814 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-10 21:18:17,815 - INFO - |auth - create_access_token| create successfully
+2024-08-10 21:18:17,815 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-10 21:18:51,291 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 21:18:51,295 - INFO - |student_function - get_requested_student| -> get data from requested student detail
+2024-08-10 21:18:51,295 - INFO - /admin/logged/student/request/requestedStudent -> retrieve requested student detail
+2024-08-10 21:26:14,042 - INFO - redis database is connected successfully
+2024-08-10 21:40:07,563 - INFO - redis database is connected successfully
+2024-08-10 21:48:54,872 - INFO - redis database is connected successfully
+2024-08-10 22:18:25,839 - INFO - redis database is connected successfully
+2024-08-10 22:22:52,475 - INFO - redis database is connected successfully
+2024-08-10 22:22:52,578 - INFO - Database is created
+2024-08-10 22:25:00,739 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-10 22:25:00,742 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-10 22:25:00,742 - INFO - |auth - create_access_token| create successfully
+2024-08-10 22:25:00,743 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-10 22:25:45,144 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 22:25:45,164 - INFO - |student_function - approve_student| -> approve the student/ update database successfully
+2024-08-10 22:25:45,171 - INFO - |student_function - get_student_data| -> retrieve successfully
+2024-08-10 22:25:48,390 - INFO - |Mails - mail| -> email send to thushanmadhusanka3@gmail.com
+2024-08-10 22:29:00,469 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 22:29:00,471 - INFO - |student_function - get_requested_student| -> get data from requested student detail
+2024-08-10 22:29:00,471 - INFO - /admin/logged/student/request/requestedStudent -> retrieve requested student detail
+2024-08-10 22:46:47,004 - INFO - redis database is connected successfully
+2024-08-10 22:55:50,418 - INFO - redis database is connected successfully
+2024-08-10 22:55:50,514 - INFO - Database is created
+2024-08-10 22:56:03,994 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 22:56:04,002 - INFO - |student_function - get_requested_student| -> get data from requested student detail
+2024-08-10 22:56:04,002 - INFO - /admin/logged/student/request/requestedStudent -> retrieve requested student detail
+2024-08-10 22:57:43,485 - INFO - redis database is connected successfully
+2024-08-10 22:57:43,594 - INFO - Database is created
+2024-08-10 22:57:47,816 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-10 22:57:47,831 - INFO - |student_function - reject_student_request| -> delete successfully
+2024-08-10 22:57:47,831 - INFO - /admin/logged/student/request/rejectStudent -> student is rejected
+2024-08-10 22:58:02,511 - WARNING - /admin/logged/student/request/rejectStudent -> unauthorized access
+2024-08-11 07:58:05,445 - INFO - redis database is connected successfully
+2024-08-11 07:58:05,560 - INFO - Database is created
+2024-08-11 08:00:15,960 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-11 08:00:15,962 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-11 08:00:15,962 - INFO - |auth - create_access_token| create successfully
+2024-08-11 08:00:15,963 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-11 08:01:09,465 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-11 08:01:09,466 - INFO - /admin/addAdmin -> create new admin saman
+2024-08-11 08:02:41,542 - INFO - redis database is connected successfully
+2024-08-11 08:02:41,642 - INFO - Database is created
+2024-08-11 08:02:48,802 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-11 08:02:48,805 - INFO - /admin/addAdmin -> create new admin saman
+2024-08-11 08:04:52,581 - INFO - redis database is connected successfully
+2024-08-11 08:04:52,665 - INFO - Database is created
+2024-08-11 08:05:05,528 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-11 08:05:05,532 - INFO - /admin/addAdmin -> create new admin saman
+2024-08-11 08:09:35,289 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-11 08:09:35,289 - INFO - /admin/addAdmin -> create new admin samann
+2024-08-11 08:11:46,035 - INFO - redis database is connected successfully
+2024-08-11 08:11:46,121 - INFO - Database is created
+2024-08-11 08:11:49,812 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-11 08:11:49,824 - INFO - |functionAdmin - create_new_admin| -> create a new admin successfully
+2024-08-11 08:11:49,824 - INFO - /admin/addAdmin -> create new admin samann
+2024-08-12 15:45:46,342 - INFO - redis database is connected successfully
+2024-08-12 15:45:46,458 - INFO - Database is created
+2024-08-12 15:49:18,135 - INFO - |student_logging_function - check_registered_student| -> get data from database success
+2024-08-12 15:49:18,135 - INFO - /user/studentLogin -> login success kamal-66ju
+2024-08-12 15:49:18,136 - INFO - |auth - create_access_token| create successfully
+2024-08-12 15:49:34,684 - INFO - |student_logging_function - check_registered_student| -> get data from database success
+2024-08-12 15:49:34,684 - WARNING - /user/studentLogin -> login fail kamal-66j mryvtn
+2024-08-12 15:49:48,413 - INFO - |student_logging_function - check_registered_student| -> get data from database success
+2024-08-12 15:49:48,413 - INFO - /user/studentLogin -> login success kamal-66ju
+2024-08-12 15:49:48,413 - INFO - |auth - create_access_token| create successfully
+2024-08-12 15:57:10,703 - INFO - redis database is connected successfully
+2024-08-12 16:12:32,276 - INFO - redis database is connected successfully
+2024-08-12 16:32:03,949 - INFO - redis database is connected successfully
+2024-08-12 16:33:38,803 - INFO - redis database is connected successfully
+2024-08-12 16:47:31,991 - INFO - redis database is connected successfully
+2024-08-12 16:59:33,961 - INFO - redis database is connected successfully
+2024-08-12 17:12:22,457 - INFO - redis database is connected successfully
+2024-08-12 17:13:04,284 - INFO - redis database is connected successfully
+2024-08-12 17:14:39,898 - INFO - redis database is connected successfully
+2024-08-12 17:14:40,001 - INFO - Database is created
+2024-08-12 17:17:42,444 - INFO - |student_logging_function - check_email_mobile| -> get data from database success
+2024-08-12 17:18:04,284 - INFO - |student_logging_function - check_email_mobile| -> get data from database success
+2024-08-12 17:18:04,316 - INFO - new data row add successfully thush-04ba
+2024-08-12 17:18:04,316 - INFO - /user/registerStudent -> insert data successfully
+2024-08-12 17:18:07,465 - INFO - |Mails - mail| -> email send to thushanmadhusanka3@gmail.com
+2024-08-12 17:18:07,466 - INFO - /user/registerStudent -> email send successfully thushanmadhusanka3@gmail.com
+2024-08-12 17:20:29,229 - INFO - redis database is connected successfully
+2024-08-12 17:20:29,332 - INFO - Database is created
+2024-08-12 17:21:33,482 - INFO - redis database is connected successfully
+2024-08-12 17:21:33,592 - INFO - Database is created
+2024-08-12 17:21:37,467 - INFO - |student_logging_function - check_email_mobile| -> get data from database success
+2024-08-12 17:21:52,850 - INFO - |student_logging_function - check_email_mobile| -> get data from database success
+2024-08-12 17:21:52,883 - INFO - new data row add successfully thush-bb4w
+2024-08-12 17:21:52,883 - INFO - /user/registerStudent -> insert data successfully
+2024-08-12 17:21:55,940 - INFO - |Mails - mail| -> email send to thushanmadhusanka3@gmail.com
+2024-08-12 17:21:55,941 - INFO - /user/registerStudent -> email send successfully thushanmadhusanka3@gmail.com
+2024-08-12 17:23:49,764 - INFO - redis database is connected successfully
+2024-08-12 17:23:49,860 - INFO - Database is created
+2024-08-12 17:32:17,759 - INFO - redis database is connected successfully
+2024-08-12 18:04:39,100 - INFO - redis database is connected successfully
+2024-08-12 18:04:39,199 - INFO - Database is created
+2024-08-12 18:14:19,831 - INFO - redis database is connected successfully
+2024-08-12 18:26:56,626 - INFO - redis database is connected successfully
+2024-08-12 18:26:56,724 - INFO - Database is created
+2024-08-12 19:39:26,396 - INFO - redis database is connected successfully
+2024-08-12 19:39:26,526 - INFO - Database is created
+2024-08-12 20:46:48,202 - INFO - redis database is connected successfully
+2024-08-12 20:46:48,291 - INFO - Database is created
+2024-08-12 20:47:49,670 - INFO - redis database is connected successfully
+2024-08-12 20:47:49,772 - INFO - Database is created
+2024-08-12 20:49:11,661 - INFO - redis database is connected successfully
+2024-08-12 20:49:11,751 - INFO - Database is created
+2024-08-12 20:51:28,850 - INFO - redis database is connected successfully
+2024-08-12 20:51:28,950 - INFO - Database is created
+2024-08-12 20:53:17,825 - INFO - redis database is connected successfully
+2024-08-12 20:53:17,922 - INFO - Database is created
+2024-08-12 20:54:11,537 - INFO - redis database is connected successfully
+2024-08-12 20:54:11,626 - INFO - Database is created
+2024-08-12 20:55:29,292 - INFO - redis database is connected successfully
+2024-08-12 20:55:29,389 - INFO - Database is created
+2024-08-12 20:59:33,888 - INFO - |student_logging_function - check_email_mobile| -> get data from database success
+2024-08-12 21:02:05,686 - INFO - redis database is connected successfully
+2024-08-12 21:02:05,779 - INFO - Database is created
+2024-08-12 21:04:02,175 - INFO - |student_logging_function - check_registered_student| -> get data from database success
+2024-08-12 21:04:02,175 - INFO - /user/studentLogin -> login success thush-bb4w
+2024-08-12 21:04:02,176 - INFO - |auth - create_access_token| create successfully
+2024-08-12 21:07:41,362 - INFO - |student_login_function - check_student| -> get student data successfully
+2024-08-12 21:07:44,770 - INFO - |Mails - mail| -> email send to thushanmadhusanka3@gmail.com
+2024-08-12 21:07:44,770 - INFO - /user/forgetPassword -> send otp to email successfully
+2024-08-12 21:08:11,537 - INFO - |student_login_function - get_student_data| -> get student data successfully
+2024-08-12 21:08:11,537 - INFO - /user/otp -> OTP is equal generate token
+2024-08-12 21:08:11,538 - INFO - |auth - create_access_token| create successfully
+2024-08-12 21:12:15,049 - INFO - redis database is connected successfully
+2024-08-12 21:57:35,057 - INFO - redis database is connected successfully
+2024-08-12 21:57:35,149 - INFO - Database is created
+2024-08-12 21:58:03,026 - INFO - redis database is connected successfully
+2024-08-12 21:58:03,115 - INFO - Database is created
+2024-08-12 21:58:23,185 - INFO - |student_login_function - check_student| -> get student data successfully
+2024-08-12 21:58:26,400 - INFO - |Mails - mail| -> email send to thushanmadhusanka3@gmail.com
+2024-08-12 21:58:26,401 - INFO - /user/forgetPassword -> send otp to email successfully
+2024-08-12 21:59:07,195 - INFO - |student_login_function - get_student_data| -> get student data successfully
+2024-08-12 21:59:07,196 - INFO - /user/otp -> OTP is equal generate token
+2024-08-12 21:59:07,196 - INFO - |auth - create_access_token| create successfully
+2024-08-12 22:00:24,895 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-12 22:00:24,895 - INFO - /user/changePassword -> verified token , go to update password
+2024-08-12 22:02:57,282 - INFO - redis database is connected successfully
+2024-08-12 22:02:57,377 - INFO - Database is created
+2024-08-12 22:03:01,134 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-12 22:03:01,134 - INFO - /user/changePassword -> verified token , go to update password
+2024-08-12 22:03:01,139 - INFO - |student_logging_function - update_password| -> password update successfully thush-bb4w
+2024-08-12 22:33:00,855 - INFO - redis database is connected successfully
+2024-08-12 22:33:00,947 - INFO - Database is created
+2024-08-12 22:33:41,417 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-12 22:35:56,933 - INFO - |student_logging_function - check_registered_student| -> get data from database success
+2024-08-12 22:35:56,933 - INFO - /user/studentLogin -> login success thush-bb4w
+2024-08-12 22:35:56,933 - INFO - |auth - create_access_token| create successfully
+2024-08-12 22:36:23,279 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-13 16:25:19,765 - INFO - redis database is connected successfully

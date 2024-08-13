@@ -1,0 +1,61 @@
+2024-08-05 10:33:14,498 - ERROR - addAdmin - 400: email already taken
+2024-08-05 13:59:40,092 - ERROR - /api/adminLogin - 'NoneType' object has no attribute 'password'
+2024-08-07 16:18:38,928 - ERROR - /admin/forgetPassword -> object bool can't be used in 'await' expression
+2024-08-07 16:21:28,814 - ERROR - /admin/forgetPassword -> object bool can't be used in 'await' expression
+2024-08-07 16:27:31,779 - ERROR - /admin/forgetPassword -> object bool can't be used in 'await' expression
+2024-08-07 16:31:42,525 - ERROR - /admin/otp -> object NoneType can't be used in 'await' expression
+2024-08-07 16:32:25,810 - ERROR - /admin/otp -> 'NoneType' object has no attribute 'decode'
+2024-08-07 16:40:23,693 - ERROR - |auth ->create_access_token| -> 'NoneType' object has no attribute 'copy'
+2024-08-07 22:22:57,637 - ERROR - |panel_function - add_topics| -> data adding fail (pymysql.err.IntegrityError) (1048, "Column 'created' cannot be null")
+[SQL: INSERT INTO topic (topic_name, created, criteria, admin_id) VALUES (%(topic_name)s, %(created)s, %(criteria)s, %(admin_id)s)]
+[parameters: {'topic_name': 'hello', 'created': None, 'criteria': 'david', 'admin_id': 11}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-08-07 22:22:57,637 - ERROR - |panel_function - add_topics| -> data adding fail This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (pymysql.err.IntegrityError) (1048, "Column 'created' cannot be null")
+[SQL: INSERT INTO topic (topic_name, created, criteria, admin_id) VALUES (%(topic_name)s, %(created)s, %(criteria)s, %(admin_id)s)]
+[parameters: {'topic_name': 'hello', 'created': None, 'criteria': 'david', 'admin_id': 11}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2024-08-07 22:22:57,638 - ERROR - |panel_function - add_topics| -> data adding fail This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (pymysql.err.IntegrityError) (1048, "Column 'created' cannot be null")
+[SQL: INSERT INTO topic (topic_name, created, criteria, admin_id) VALUES (%(topic_name)s, %(created)s, %(criteria)s, %(admin_id)s)]
+[parameters: {'topic_name': 'hello', 'created': None, 'criteria': 'david', 'admin_id': 11}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2024-08-08 18:53:49,871 - ERROR - |panel_function - add_topics| -> data adding fail (pymysql.err.IntegrityError) (1048, "Column 'created' cannot be null")
+[SQL: INSERT INTO topic (topic_name, created, criteria, admin_id) VALUES (%(topic_name)s, %(created)s, %(criteria)s, %(admin_id)s)]
+[parameters: {'topic_name': 'hello', 'created': None, 'criteria': 'david', 'admin_id': 11}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2024-08-08 18:53:49,872 - ERROR - |panel_function - add_topics| -> data adding fail This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (pymysql.err.IntegrityError) (1048, "Column 'created' cannot be null")
+[SQL: INSERT INTO topic (topic_name, created, criteria, admin_id) VALUES (%(topic_name)s, %(created)s, %(criteria)s, %(admin_id)s)]
+[parameters: {'topic_name': 'hello', 'created': None, 'criteria': 'david', 'admin_id': 11}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2024-08-08 18:53:49,872 - ERROR - |panel_function - add_topics| -> data adding fail This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (pymysql.err.IntegrityError) (1048, "Column 'created' cannot be null")
+[SQL: INSERT INTO topic (topic_name, created, criteria, admin_id) VALUES (%(topic_name)s, %(created)s, %(criteria)s, %(admin_id)s)]
+[parameters: {'topic_name': 'hello', 'created': None, 'criteria': 'david', 'admin_id': 11}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2024-08-08 19:03:33,318 - ERROR - |panel_function - add_topics| -> data adding fail (pymysql.err.OperationalError) (4025, 'CONSTRAINT `topic.criteria` failed for `edexme_db`.`topic`')
+[SQL: INSERT INTO topic (topic_name, created, criteria, admin_id) VALUES (%(topic_name)s, %(created)s, %(criteria)s, %(admin_id)s)]
+[parameters: {'topic_name': 'hello', 'created': datetime.date(2024, 8, 8), 'criteria': 'david', 'admin_id': 11}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-08-08 20:17:48,525 - ERROR - |auth - verify_token| -> Not enough segments
+2024-08-08 21:03:06,539 - ERROR - /admin/logged/updateTopic -> update_topic() takes from 1 to 3 positional arguments but 4 were given
+2024-08-08 21:12:07,592 - ERROR - |auth - verify_token| -> Signature has expired.
+2024-08-08 21:44:58,251 - ERROR - /admin/logged/updateTopic -> 'admin'
+2024-08-08 21:46:57,028 - ERROR - /admin/logged/deleteTopic -> 'admin'
+2024-08-08 21:48:16,234 - ERROR - /admin/logged/deleteTopic -> 'admin'
+2024-08-09 13:43:49,353 - ERROR - /admin/logged/student/addStudent -> 'username' is an invalid keyword argument for User
+2024-08-09 13:48:23,474 - ERROR - /admin/logged/student/addStudent -> 'username' is an invalid keyword argument for User
+2024-08-09 13:51:55,798 - ERROR - /admin/logged/student/addStudent -> 'username' is an invalid keyword argument for User
+2024-08-10 15:45:59,571 - ERROR - |student_function - get_student_detail| -> id
+2024-08-10 15:50:12,963 - ERROR - |student_function - get_student_detail| -> 'Select' object has no attribute 'all'
+2024-08-10 15:50:39,556 - ERROR - |student_function - get_student_detail| -> id
+2024-08-10 15:51:24,281 - ERROR - |student_function - get_student_detail| -> id
+2024-08-10 15:52:05,309 - ERROR - |student_function - get_student_detail| -> id
+2024-08-10 15:54:07,642 - ERROR - |student_function - get_student_detail| -> 'Select' object is not iterable
+2024-08-10 15:57:08,889 - ERROR - /admin/logged/student/getAllStudent -> Object of type date is not JSON serializable
+2024-08-10 22:58:02,510 - ERROR - |auth - verify_token| -> Signature verification failed.
+2024-08-11 08:01:09,465 - ERROR - |functionAdmin - create_new_admin| -> 'admin_name' is an invalid keyword argument for User
+2024-08-11 08:02:48,805 - ERROR - |functionAdmin - create_new_admin| -> Executable SQL or text() construct expected, got <Databases.models.Admin object at 0x7f4fd99a75d0>.
+2024-08-11 08:05:05,532 - ERROR - |functionAdmin - create_new_admin| -> Executable SQL or text() construct expected, got <Databases.models.Admin object at 0x7ff8512700d0>.
+2024-08-11 08:09:35,289 - ERROR - |functionAdmin - create_new_admin| -> Executable SQL or text() construct expected, got <Databases.models.Admin object at 0x7ff8511126d0>.
+2024-08-12 22:00:24,905 - ERROR - |student_logging_function| -> Class 'sqlalchemy.sql.dml.Update' is not mapped
+2024-08-12 22:39:31,398 - ERROR - |auth - verify_token| -> Signature verification failed.
+2024-08-13 16:25:19,865 - ERROR - cannot create tables in mariaDB - (pymysql.err.OperationalError) (1698, "Access denied for user 'thush'@'localhost'")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)

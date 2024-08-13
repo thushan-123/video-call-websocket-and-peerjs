@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 COMPANY_EMAIL = os.getenv("COMPANY_EMAIL")
-COMPANY_EMAIL_PASSWORD = os.getenv("COMPANY_EMAIL_PASSWORD")  # want a app password
+COMPANY_EMAIL_PASSWORD = os.getenv("COMPANY_EMAIL_PASSWORD")  # want a ap password
 
 
 class Mail:

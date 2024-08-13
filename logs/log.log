@@ -683,3 +683,5 @@
 2024-08-12 22:35:56,933 - INFO - |auth - create_access_token| create successfully
 2024-08-12 22:36:23,279 - INFO - |auth -> verify_token| - successful Decode JWT
 2024-08-13 16:25:19,765 - INFO - redis database is connected successfully
+2024-08-13 17:47:49,312 - INFO - redis database is connected successfully
+2024-08-13 17:47:50,035 - INFO - Database is created

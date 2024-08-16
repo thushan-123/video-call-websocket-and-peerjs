@@ -774,3 +774,60 @@
 2024-08-13 22:13:15,078 - INFO - /user/logged/updateStudent -> new username send to email successfully
 2024-08-13 22:41:47,744 - INFO - redis database is connected successfully
 2024-08-13 22:41:47,856 - INFO - Database is created
+2024-08-14 17:48:37,764 - INFO - redis database is connected successfully
+2024-08-14 17:48:37,921 - INFO - Database is created
+2024-08-14 17:49:08,148 - INFO - redis database is connected successfully
+2024-08-14 17:49:08,261 - INFO - Database is created
+2024-08-14 17:49:48,528 - INFO - redis database is connected successfully
+2024-08-14 17:49:48,643 - INFO - Database is created
+2024-08-14 18:32:18,345 - INFO - redis database is connected successfully
+2024-08-14 18:32:18,478 - INFO - Database is created
+2024-08-14 21:28:03,768 - INFO - redis database is connected successfully
+2024-08-14 21:32:21,751 - INFO - redis database is connected successfully
+2024-08-14 21:36:00,483 - INFO - redis database is connected successfully
+2024-08-14 21:40:25,497 - INFO - redis database is connected successfully
+2024-08-14 21:40:46,251 - INFO - redis database is connected successfully
+2024-08-14 21:40:46,372 - INFO - Database is created
+2024-08-14 21:41:06,257 - INFO - redis database is connected successfully
+2024-08-14 21:41:06,369 - INFO - Database is created
+2024-08-14 21:48:41,909 - INFO - redis database is connected successfully
+2024-08-14 21:48:42,035 - INFO - Database is created
+2024-08-15 10:11:33,298 - INFO - redis database is connected successfully
+2024-08-15 10:11:33,451 - INFO - Database is created
+2024-08-15 10:17:59,001 - INFO - redis database is connected successfully
+2024-08-15 10:17:59,116 - INFO - Database is created
+2024-08-15 10:18:23,763 - INFO - |student_logging_function - check_registered_student| -> get data from database success
+2024-08-15 10:18:23,763 - WARNING - /user/studentLogin -> login fail thush-1c6y q9fv5w
+2024-08-15 12:42:34,801 - INFO - redis database is connected successfully
+2024-08-15 12:42:35,092 - INFO - Database is created
+2024-08-15 13:50:31,905 - INFO - redis database is connected successfully
+2024-08-15 13:50:32,135 - INFO - Database is created
+2024-08-16 10:07:55,463 - INFO - redis database is connected successfully
+2024-08-16 10:07:55,616 - INFO - Database is created
+2024-08-16 10:38:25,292 - INFO - redis database is connected successfully
+2024-08-16 10:38:25,409 - INFO - Database is created
+2024-08-16 10:51:06,989 - INFO - redis database is connected successfully
+2024-08-16 10:51:07,107 - INFO - Database is created
+2024-08-16 10:58:32,491 - INFO - redis database is connected successfully
+2024-08-16 10:58:32,606 - INFO - Database is created
+2024-08-16 11:07:18,643 - INFO - redis database is connected successfully
+2024-08-16 11:07:18,755 - INFO - Database is created
+2024-08-16 11:09:12,951 - INFO - redis database is connected successfully
+2024-08-16 11:09:13,088 - INFO - Database is created
+2024-08-16 11:10:09,393 - INFO - redis database is connected successfully
+2024-08-16 11:10:09,507 - INFO - Database is created
+2024-08-16 11:18:46,252 - INFO - redis database is connected successfully
+2024-08-16 11:19:31,564 - INFO - redis database is connected successfully
+2024-08-16 11:19:31,676 - INFO - Database is created
+2024-08-16 11:21:10,580 - INFO - redis database is connected successfully
+2024-08-16 11:21:10,697 - INFO - Database is created
+2024-08-16 11:27:45,645 - INFO - redis database is connected successfully
+2024-08-16 11:27:45,763 - INFO - Database is created
+2024-08-16 11:33:51,783 - INFO - redis database is connected successfully
+2024-08-16 11:33:51,902 - INFO - Database is created
+2024-08-16 11:34:00,329 - INFO - redis database is connected successfully
+2024-08-16 11:34:00,440 - INFO - Database is created
+2024-08-16 11:43:44,340 - INFO - redis database is connected successfully
+2024-08-16 11:43:44,456 - INFO - Database is created
+2024-08-16 11:43:49,178 - INFO - redis database is connected successfully
+2024-08-16 11:43:49,292 - INFO - Database is created

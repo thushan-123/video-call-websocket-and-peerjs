@@ -17,20 +17,27 @@ class SLformatter(logging.Formatter):
 # Create a Loggers -> err_log ,
 err_log = logging.getLogger("err_log")
 app_log = logging.getLogger("app_log")
+call_log = logging.getLogger("call_log")
 
 # Set logging level
 err_log.setLevel(logging.DEBUG)
 app_log.setLevel(logging.DEBUG)
+call_log.setLevel(logging.DEBUG)
 
 # Create  error file
 err_file = logging.FileHandler("logs/error_log.log", "a")
+# Create a application log file
 app_file = logging.FileHandler("logs/log.log", "a")
+# Create a call log file
+call_file = logging.FileHandler("logs/call.log", "a")
 
 # Create a formatter
 formatter = SLformatter('%(asctime)s - %(levelname)s - %(message)s')
 
 err_file.setFormatter(formatter)
 app_file.setFormatter(formatter)
+call_file.setFormatter(formatter)
 
 err_log.addHandler(err_file)
 app_log.addHandler(app_file)
+call_log.addHandler(call_file)

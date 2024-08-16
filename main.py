@@ -9,7 +9,7 @@ import os
 from dotenv import load_dotenv
 from Routes.Admin import admin
 from Routes.Student import student_logging
-from Routes.Multimedia import websocket
+from Routes.video_stream import websocket
 from Loggers.log import app_log, err_log
 
 load_dotenv()
@@ -35,7 +35,7 @@ blocked_urls = ["/docs"]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

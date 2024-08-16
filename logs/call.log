@@ -1,0 +1,122 @@
+2024-08-14 21:48:47,930 - INFO - User sfbhg connected
+2024-08-14 21:49:35,237 - INFO - User sfbhg disconnected
+2024-08-15 10:22:44,412 - INFO - User thus connected
+2024-08-15 10:32:35,887 - INFO - User thus disconnected
+2024-08-15 12:42:39,873 - INFO - User user760 connected
+2024-08-15 12:43:13,770 - INFO - User user496 connected
+2024-08-15 12:43:20,162 - INFO - User user496 is calling User user760
+2024-08-15 12:43:25,686 - INFO - User user496 is calling User user760
+2024-08-15 12:43:35,508 - INFO - User user496 is calling User user760
+2024-08-15 12:43:59,832 - INFO - User user496 is calling User user760
+2024-08-15 12:44:02,077 - INFO - User user496 is calling User user760
+2024-08-15 12:44:02,778 - INFO - User user496 is calling User user760
+2024-08-15 12:44:44,487 - INFO - User user496 is calling User user760
+2024-08-15 12:46:16,362 - INFO - User user496 is calling User user760
+2024-08-15 12:46:24,008 - INFO - User user760 is calling User user496
+2024-08-15 12:46:24,046 - INFO - User user496 answered the call from user user760
+2024-08-15 12:50:21,666 - INFO - user user760 disconnected
+2024-08-15 12:50:22,457 - INFO - user user496 disconnected
+2024-08-15 12:53:28,778 - INFO - User g3o8o8kjukk connected
+2024-08-15 12:53:42,198 - INFO - User vvoq8mcxnb connected
+2024-08-15 12:55:46,075 - INFO - user vvoq8mcxnb disconnected
+2024-08-15 12:55:48,305 - INFO - user g3o8o8kjukk disconnected
+2024-08-15 13:08:26,372 - INFO - User user842 connected
+2024-08-15 13:09:09,574 - INFO - User user678 connected
+2024-08-15 13:09:39,229 - INFO - User user678 is calling User user842
+2024-08-15 13:13:55,213 - INFO - user user842 disconnected
+2024-08-15 13:13:56,972 - INFO - user user678 disconnected
+2024-08-15 13:15:16,699 - INFO - User user485 connected
+2024-08-15 13:15:30,621 - INFO - User user217 connected
+2024-08-15 13:15:33,878 - INFO - User user217 is calling User user485
+2024-08-15 13:16:11,281 - INFO - User user485 is calling User user217
+2024-08-15 13:16:11,342 - INFO - User user217 answered the call from user user485
+2024-08-15 13:16:50,661 - INFO - User user217 is calling User user485
+2024-08-15 13:16:50,683 - INFO - User user485 answered the call from user user217
+2024-08-15 13:16:50,815 - INFO - User user217 is calling User user485
+2024-08-15 13:16:50,841 - INFO - User user485 answered the call from user user217
+2024-08-15 13:16:51,047 - INFO - User user217 is calling User user485
+2024-08-15 13:16:51,070 - INFO - User user485 answered the call from user user217
+2024-08-15 13:20:35,882 - INFO - user user217 disconnected
+2024-08-15 13:20:35,939 - INFO - User user64 connected
+2024-08-15 13:20:42,801 - INFO - user user485 disconnected
+2024-08-15 13:20:42,836 - INFO - User user800 connected
+2024-08-15 13:20:46,255 - INFO - User user800 is calling User user64
+2024-08-15 13:20:46,315 - INFO - User user64 answered the call from user user800
+2024-08-15 13:21:18,601 - INFO - User user64 is calling User user800
+2024-08-15 13:21:18,645 - INFO - User user800 answered the call from user user64
+2024-08-15 13:21:19,096 - INFO - User user64 is calling User user800
+2024-08-15 13:21:19,129 - INFO - User user800 answered the call from user user64
+2024-08-15 13:21:19,575 - INFO - User user64 is calling User user800
+2024-08-15 13:21:19,613 - INFO - User user800 answered the call from user user64
+2024-08-15 13:27:26,644 - INFO - user user800 disconnected
+2024-08-15 13:27:28,650 - INFO - user user64 disconnected
+2024-08-15 13:51:32,401 - INFO - User user312 connected
+2024-08-15 13:51:54,366 - INFO - User user865 connected
+2024-08-15 13:51:59,479 - INFO - User user865 is calling User user312
+2024-08-15 13:51:59,532 - INFO - User user312 answered the call from user user865
+2024-08-15 13:52:47,211 - INFO - User user312 is calling User user865
+2024-08-15 13:52:47,274 - INFO - User user865 answered the call from user user312
+2024-08-15 13:52:48,230 - INFO - User user312 is calling User user865
+2024-08-15 13:52:48,285 - INFO - User user865 answered the call from user user312
+2024-08-15 13:53:29,374 - INFO - user user865 disconnected
+2024-08-15 13:53:32,966 - INFO - user user312 disconnected
+2024-08-16 11:00:23,305 - INFO - User kamal connected - peer connection id: 1239
+2024-08-16 11:00:27,729 - INFO - User thush connected - peer connection id: 1234
+2024-08-16 11:01:50,891 - ERROR - Error starting conference between thush - kamal : Object of type bytes is not JSON serializable
+2024-08-16 11:06:27,691 - INFO - User thush disconnected
+2024-08-16 11:06:27,705 - INFO - User kamal disconnected
+2024-08-16 11:07:23,523 - INFO - User thush connected - peer connection id: 1234
+2024-08-16 11:07:28,855 - INFO - User kamal connected - peer connection id: 1239
+2024-08-16 11:07:37,049 - ERROR - Error starting conference between thush - kamal : Object of type bytes is not JSON serializable
+2024-08-16 11:08:34,124 - INFO - User thush disconnected
+2024-08-16 11:08:34,128 - INFO - User kamal disconnected
+2024-08-16 11:10:29,845 - INFO - User thush connected - peer connection id: 1234
+2024-08-16 11:11:06,694 - INFO - User kamal connected - peer connection id: 1239
+2024-08-16 11:12:03,983 - ERROR - Error in websocket endpoint: Expecting value: line 1 column 1 (char 0)
+2024-08-16 11:15:25,367 - INFO - User thush disconnected
+2024-08-16 11:17:23,615 - INFO - User thush connected - peer connection id: 1234
+2024-08-16 11:17:27,149 - INFO - User thush disconnected
+2024-08-16 11:19:45,751 - INFO - User thush connected - peer connection id: 1234
+2024-08-16 11:19:48,286 - INFO - User thush disconnected
+2024-08-16 11:19:48,286 - ERROR - 'thush'
+2024-08-16 11:23:06,815 - INFO - User thush connected - peer connection id: 1234
+2024-08-16 11:23:15,248 - INFO - User kamal connected - peer connection id: 1239
+2024-08-16 11:23:27,132 - ERROR - Error starting conference between thush - kamal : Object of type bytes is not JSON serializable
+2024-08-16 11:24:30,826 - INFO - User kamal disconnected
+2024-08-16 11:24:30,826 - ERROR - 'kamal'
+2024-08-16 11:24:47,501 - INFO - User thush disconnected
+2024-08-16 11:24:47,501 - ERROR - 'thush'
+2024-08-16 11:27:56,741 - INFO - User kamal connected - peer connection id: 1239
+2024-08-16 11:27:59,451 - INFO - User thush connected - peer connection id: 1234
+2024-08-16 11:28:02,017 - WARNING - Attempted to send message to non-existent connection for user kamal
+2024-08-16 11:28:02,017 - INFO - Conference started between thush - kamal
+2024-08-16 11:30:42,621 - INFO - User kamal disconnected
+2024-08-16 11:30:42,621 - ERROR - 'kamal'
+2024-08-16 11:30:53,011 - INFO - User thush is waiting for more users joining
+2024-08-16 11:31:01,060 - INFO - User thush is waiting for more users joining
+2024-08-16 11:31:04,942 - INFO - User kamal connected - peer connection id: 1239
+2024-08-16 11:31:14,619 - ERROR - Error in websocket endpoint: Expecting value: line 1 column 1 (char 0)
+2024-08-16 11:33:50,844 - INFO - User thush disconnected
+2024-08-16 11:33:50,844 - ERROR - 'thush'
+2024-08-16 11:34:10,975 - INFO - User thush connected - peer connection id: 1234
+2024-08-16 11:34:15,008 - INFO - User kamal connected - peer connection id: 1239
+2024-08-16 11:34:43,014 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1239'}
+2024-08-16 11:34:43,014 - INFO - Conference started between kamal - thush
+2024-08-16 11:35:02,685 - INFO - User thush disconnected
+2024-08-16 11:35:02,685 - INFO - Conference between thush and kamal ended. Duration: 0:00:19.672144
+2024-08-16 11:35:02,686 - INFO - Message sent to kamal: {'type': 'conference_user_replaced', 'peer_id': '1239'}
+2024-08-16 11:35:02,686 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '1239'}
+2024-08-16 11:35:02,686 - INFO - User thush disconnected. Replaced with kamal in conference with kamal.
+2024-08-16 11:35:48,999 - INFO - User kamal disconnected
+2024-08-16 11:35:48,999 - WARNING - Attempted to send message to non-existent connection for user kamal
+2024-08-16 11:35:48,999 - INFO - User kamal disconnected. kamal is now waiting for new users.
+2024-08-16 11:43:56,620 - INFO - User kamal connected - peer connection id: 1239
+2024-08-16 11:44:00,101 - INFO - User thush connected - peer connection id: 1234
+2024-08-16 11:44:02,430 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '1234'}
+2024-08-16 11:44:02,430 - INFO - Conference started between thush - kamal
+2024-08-16 11:44:09,932 - INFO - User kamal disconnected
+2024-08-16 11:44:09,932 - INFO - Conference between kamal and thush ended. Duration: 0:00:07.502406
+2024-08-16 11:44:09,932 - INFO - Message sent to thush: {'type': 'waiting_for_users'}
+2024-08-16 11:44:09,932 - INFO - User kamal disconnected. thush is now waiting for new users.
+2024-08-16 11:44:17,997 - INFO - User thush disconnected
+2024-08-16 11:44:17,997 - INFO - User thush disconnected but was not in a conference.

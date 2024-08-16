@@ -120,3 +120,13 @@
 2024-08-16 11:44:09,932 - INFO - User kamal disconnected. thush is now waiting for new users.
 2024-08-16 11:44:17,997 - INFO - User thush disconnected
 2024-08-16 11:44:17,997 - INFO - User thush disconnected but was not in a conference.
+2024-08-16 13:15:27,372 - INFO - User kamal connected - peer connection id: 1239
+2024-08-16 13:15:30,649 - INFO - User thush connected - peer connection id: 1234
+2024-08-16 13:16:08,491 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '1234'}
+2024-08-16 13:16:08,491 - INFO - Conference started between thush - kamal
+2024-08-16 13:17:25,257 - INFO - User kamal disconnected
+2024-08-16 13:17:25,257 - INFO - Conference between kamal and thush ended. Duration: 0:01:16.766500
+2024-08-16 13:17:25,257 - INFO - Message sent to thush: {'type': 'waiting_for_users'}
+2024-08-16 13:17:25,257 - INFO - User kamal disconnected. thush is now waiting for new users.
+2024-08-16 13:17:31,973 - INFO - User thush disconnected
+2024-08-16 13:17:31,973 - INFO - User thush disconnected but was not in a conference.

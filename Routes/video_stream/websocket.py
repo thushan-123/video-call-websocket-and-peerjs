@@ -1,6 +1,6 @@
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from Databases.redis_connection import redis_call_client
-from Loggers.log import call_log
+from Loggers.log import call_log, conference_log
 import json
 import random
 from Functions.function import get_sl_DateTime
@@ -77,6 +77,7 @@ async def handle_disconnection(disconnected_user: str):
             meeting_duration = end_time - start_time
             call_log.info(
                 f"Conference between {disconnected_user} and {other_user} ended. Duration: {meeting_duration}")
+            conference_log.info(f"Conference between {disconnected_user} and {other_user} - Duration: {meeting_duration}")
 
         potential_users = [user for user in connected_users if user not in conferences and user != other_user]
 

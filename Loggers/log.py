@@ -21,11 +21,13 @@ app_log = logging.getLogger("app_log")
 call_log = logging.getLogger("call_log")
 conference_log = logging.getLogger("conference_log")
 
+
 # Set logging level
 err_log.setLevel(logging.DEBUG)
 app_log.setLevel(logging.DEBUG)
 call_log.setLevel(logging.DEBUG)
 conference_log.setLevel(logging.DEBUG)
+
 
 # Create  error file
 err_file = logging.FileHandler("logs/error_log.log", "a")
@@ -36,6 +38,7 @@ call_file = logging.FileHandler("logs/call.log", "a")
 # Create a daily conference log file
 conference_file = logging.FileHandler("logs/daily_conference_logs/"+ str(get_sl_DateTime(Date_=True)), "a")
 
+
 # Create a formatter
 formatter = SLformatter('%(asctime)s - %(levelname)s - %(message)s')
 conference_formatter = SLformatter('%(asctime)s - %(message)s')
@@ -44,6 +47,7 @@ err_file.setFormatter(formatter)
 app_file.setFormatter(formatter)
 call_file.setFormatter(formatter)
 conference_file.setFormatter(conference_formatter)
+
 
 err_log.addHandler(err_file)
 app_log.addHandler(app_file)

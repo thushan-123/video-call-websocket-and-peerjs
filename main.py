@@ -1,8 +1,6 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.security import OAuth2PasswordBearer
 from starlette.middleware.cors import CORSMiddleware
-from starlette.middleware.base import BaseHTTPMiddleware
-from fastapi.responses import JSONResponse
 from Databases import models
 from Databases.database import engine
 import os
@@ -11,6 +9,7 @@ from Routes.Admin import admin
 from Routes.Student import student_logging
 from Routes.video_stream import websocket
 from Loggers.log import app_log, err_log
+import uvicorn
 
 load_dotenv()
 
@@ -28,6 +27,7 @@ except Exception as e:
 # Get the JWT token from the Authorization header
 oauth2_schme = OAuth2PasswordBearer(tokenUrl="token")
 
+# docs_url=None, redoc_url=None, openapi_url=None
 app = FastAPI()
 
 origins = ["http://localhost", "http://localhost:8000"]
@@ -44,3 +44,5 @@ app.add_middleware(
 app.include_router(admin.router, prefix="/api/v1/admin")
 app.include_router(student_logging.router, prefix="/api/v1/user")
 app.include_router(websocket.router)
+
+

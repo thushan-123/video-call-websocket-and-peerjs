@@ -32,3 +32,7 @@ class UpdateTopic(BaseModel):
 # Create schema -> delete topic
 class DeleteTopic(BaseModel):
     topic_id: int
+
+# create schema -> view daily call logs
+class DailyCalls(BaseModel):
+    date: str

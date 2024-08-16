@@ -833,3 +833,130 @@
 2024-08-16 11:43:49,292 - INFO - Database is created
 2024-08-16 13:15:09,111 - INFO - redis database is connected successfully
 2024-08-16 13:15:09,257 - INFO - Database is created
+2024-08-16 16:17:34,932 - INFO - redis database is connected successfully
+2024-08-16 16:17:35,084 - INFO - Database is created
+2024-08-16 16:19:13,084 - INFO - redis database is connected successfully
+2024-08-16 16:19:13,208 - INFO - Database is created
+2024-08-16 16:39:15,092 - INFO - redis database is connected successfully
+2024-08-16 16:39:15,221 - INFO - Database is created
+2024-08-16 16:42:20,016 - INFO - redis database is connected successfully
+2024-08-16 16:42:20,131 - INFO - Database is created
+2024-08-16 16:44:23,638 - INFO - redis database is connected successfully
+2024-08-16 16:44:23,749 - INFO - Database is created
+2024-08-16 16:45:54,260 - INFO - redis database is connected successfully
+2024-08-16 16:45:54,394 - INFO - Database is created
+2024-08-16 16:49:04,674 - INFO - redis database is connected successfully
+2024-08-16 16:49:04,791 - INFO - Database is created
+2024-08-16 16:53:20,511 - INFO - redis database is connected successfully
+2024-08-16 16:53:20,722 - INFO - Database is created
+2024-08-16 17:02:24,205 - INFO - redis database is connected successfully
+2024-08-16 17:03:27,770 - INFO - redis database is connected successfully
+2024-08-16 17:03:27,891 - INFO - Database is created
+2024-08-16 17:03:43,397 - INFO - redis database is connected successfully
+2024-08-16 17:03:43,607 - INFO - Database is created
+2024-08-16 17:10:03,713 - INFO - redis database is connected successfully
+2024-08-16 17:11:16,241 - INFO - redis database is connected successfully
+2024-08-16 17:16:44,783 - INFO - redis database is connected successfully
+2024-08-16 17:18:06,043 - INFO - redis database is connected successfully
+2024-08-16 17:35:21,369 - INFO - redis database is connected successfully
+2024-08-16 17:39:59,488 - INFO - redis database is connected successfully
+2024-08-16 17:44:56,175 - INFO - redis database is connected successfully
+2024-08-16 17:46:00,675 - INFO - redis database is connected successfully
+2024-08-16 17:57:17,536 - INFO - redis database is connected successfully
+2024-08-16 18:02:34,624 - INFO - redis database is connected successfully
+2024-08-16 18:08:42,980 - INFO - redis database is connected successfully
+2024-08-16 18:08:43,208 - INFO - Database is created
+2024-08-16 18:16:49,355 - INFO - redis database is connected successfully
+2024-08-16 18:18:46,312 - INFO - redis database is connected successfully
+2024-08-16 18:18:46,461 - INFO - Database is created
+2024-08-16 18:27:36,999 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-08-16 18:27:37,000 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-08-16 18:27:37,003 - INFO - |auth - create_access_token| create successfully
+2024-08-16 18:27:37,003 - INFO - /admin/adminLogin -> send response  status: success
+2024-08-16 18:29:42,087 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:29:42,088 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:30:54,001 - INFO - redis database is connected successfully
+2024-08-16 18:30:54,122 - INFO - Database is created
+2024-08-16 18:30:57,381 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:30:57,381 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:30:57,382 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:31:32,234 - INFO - redis database is connected successfully
+2024-08-16 18:31:32,415 - INFO - Database is created
+2024-08-16 18:31:39,621 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:31:39,621 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:31:39,621 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:32:26,187 - INFO - redis database is connected successfully
+2024-08-16 18:32:26,328 - INFO - Database is created
+2024-08-16 18:32:31,430 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:32:31,431 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:32:31,431 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:33:14,069 - INFO - redis database is connected successfully
+2024-08-16 18:33:14,189 - INFO - Database is created
+2024-08-16 18:33:51,503 - INFO - redis database is connected successfully
+2024-08-16 18:33:51,621 - INFO - Database is created
+2024-08-16 18:33:54,109 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:33:54,110 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:33:54,110 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:35:01,874 - INFO - redis database is connected successfully
+2024-08-16 18:35:02,006 - INFO - Database is created
+2024-08-16 18:35:04,045 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:35:04,045 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:35:04,045 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:36:29,512 - INFO - redis database is connected successfully
+2024-08-16 18:36:29,632 - INFO - Database is created
+2024-08-16 18:36:36,705 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:36:36,705 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:36:36,705 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:39:23,223 - INFO - redis database is connected successfully
+2024-08-16 18:39:23,342 - INFO - Database is created
+2024-08-16 18:39:26,570 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:39:26,570 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:39:26,570 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:41:00,222 - INFO - redis database is connected successfully
+2024-08-16 18:41:00,350 - INFO - Database is created
+2024-08-16 18:41:04,478 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:41:04,479 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:41:04,479 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:41:32,747 - INFO - redis database is connected successfully
+2024-08-16 18:41:32,865 - INFO - Database is created
+2024-08-16 18:41:35,836 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:41:35,836 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:41:35,836 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:42:12,773 - INFO - redis database is connected successfully
+2024-08-16 18:42:12,898 - INFO - Database is created
+2024-08-16 18:42:15,758 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:42:15,758 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:42:15,759 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:42:31,170 - INFO - redis database is connected successfully
+2024-08-16 18:42:31,318 - INFO - Database is created
+2024-08-16 18:42:34,773 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:42:34,773 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:42:34,773 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:44:02,538 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:44:02,538 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:44:02,538 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:44:13,249 - INFO - redis database is connected successfully
+2024-08-16 18:44:13,366 - INFO - Database is created
+2024-08-16 18:44:15,984 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:44:15,984 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:44:15,984 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:45:12,750 - INFO - redis database is connected successfully
+2024-08-16 18:45:12,868 - INFO - Database is created
+2024-08-16 18:45:15,752 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:45:15,752 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:45:15,753 - INFO - /admin/logged/callLoge -> get a data in file
+2024-08-16 18:51:20,379 - INFO - redis database is connected successfully
+2024-08-16 18:51:20,501 - INFO - Database is created
+2024-08-16 18:52:27,648 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:52:27,648 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:52:27,648 - INFO - /admin/logged/callLogs -> get a data in file
+2024-08-16 18:54:43,171 - INFO - redis database is connected successfully
+2024-08-16 18:54:43,295 - INFO - Database is created
+2024-08-16 18:54:46,105 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:54:46,105 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:54:46,105 - INFO - /admin/logged/callLogs -> get a data in file
+2024-08-16 18:54:57,151 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:54:57,151 - INFO - /admin/logged/callLogs -> get a data in file
+2024-08-16 18:55:03,814 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-08-16 18:55:03,814 - INFO - |panel_function - get_call_logs| -> file read successfully: Date 2024-08-16
+2024-08-16 18:55:03,814 - INFO - /admin/logged/callLogs -> get a data in file

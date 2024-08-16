@@ -20,7 +20,7 @@ oauth2_schme = OAuth2PasswordBearer(tokenUrl="token")
 @router.post("/addStudent")
 async def adding_student(request: AddStudent, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token,admin=True)
         if not (data_set is None):
             username = generate_unique_username(request.f_name)
             password = get_gen_password()
@@ -47,7 +47,7 @@ async def adding_student(request: AddStudent, token: str = Depends(oauth2_schme)
 @router.put("/updateStudent")
 async def updating_student(request: UpdateStudent, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token,admin=True)
         if not (data_set is None):
             get_result = update_student(db, request.id, request.f_name, request.l_name, request.email, request.mobile)
             if get_result:
@@ -67,7 +67,7 @@ async def updating_student(request: UpdateStudent, token: str = Depends(oauth2_s
 @router.patch("/blockStudent")
 async def blocking_student(request: BlockStudent, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token,admin=True)
         if not (data_set is None):
             if request.is_blocked:
                 block_student(db, request.id, blocked=True)
@@ -88,7 +88,7 @@ async def blocking_student(request: BlockStudent, token: str = Depends(oauth2_sc
 @router.delete("/deleteStudent")
 async def deleting_student(request: DeleteStudent, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token,admin=True)
         if not (data_set is None):
             get_result = delete_student(db, request.id)
             app_log.info("/admin/logged/student/deleteStudent -> delete student")
@@ -107,7 +107,7 @@ async def deleting_student(request: DeleteStudent, token: str = Depends(oauth2_s
 @router.get("/getAllVerifyStudent")
 async def retrieve_all_student(token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token,admin=True)
         if not (data_set is None):
             data_list = get_student_detail(db)
             app_log.info("/admin/logged/student/getAllStudent -> get all student details")
@@ -127,7 +127,7 @@ async def retrieve_all_student(token: str = Depends(oauth2_schme), db: Session =
 @router.get("/searchVerifyStudent")
 async def searching_student(request: SearchStudent, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token,admin=True)
         if not (data_set is None):
             data_list = search_student(db, request.search)
             app_log.info("/admin/logged/student/searchStudent -> get search result in students")
@@ -147,7 +147,7 @@ async def searching_student(request: SearchStudent, token: str = Depends(oauth2_
 @router.get("/request/requestedStudent")
 async def get_requested_student_detail(token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token,admin=True)
         if not (data_set is None):
             data_list = get_requested_student(db)
             app_log.info("/admin/logged/student/request/requestedStudent -> retrieve requested student detail")
@@ -167,7 +167,7 @@ async def get_requested_student_detail(token: str = Depends(oauth2_schme), db: S
 @router.put("/request/approveStudent")
 async def approving_student(request: ApproveStudent, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token,admin=True)
         if not (data_set is None):
             result = approve_student(db, request.id, request.trainer_id)
             if result:
@@ -192,7 +192,7 @@ async def approving_student(request: ApproveStudent, token: str = Depends(oauth2
 @router.delete("/request/rejectStudent")
 async def rejecting_student(request: RejectStudent, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token,admin=True)
         if not (data_set is None):
             result = reject_student_request(db, request.id)
             app_log.info("/admin/logged/student/request/rejectStudent -> student is rejected")

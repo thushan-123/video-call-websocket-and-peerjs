@@ -54,7 +54,7 @@ async def admin_login(admin: AdminLogin, db: Session = Depends(get_db)):
         if bool_value:
             dataset = get_admin_data(db, username=admin.username)
             if not (dataset is None):
-                token = create_access_token(dataset)
+                token = create_access_token(dataset, admin=True)
                 app_log.info("/admin/adminLogin -> send response  status: success")
                 return JSONResponse(status_code=200, content={"status": "success", "token": token})
         else:
@@ -97,7 +97,7 @@ async def verify_otp(otp_data: Otp, db: Session = Depends(get_db)):
         if int(value) == otp_data.otp_code:
             dataset = get_admin_data(db, email_=otp_data.email)
             print(dataset)
-            temp_token = create_access_token(dataset)
+            temp_token = create_access_token(dataset, admin=True)
             redis_otp_client.delete(otp_data.email)
             app_log.info("/admin/otp -> OTP is equal | temp_token send to the user")
             return JSONResponse(status_code=200, content={"status": True, "temp_token": temp_token,
@@ -116,7 +116,7 @@ oauth2_schme = OAuth2PasswordBearer(tokenUrl="token")
 @router.post("/addAdmin")
 async def creating_admin(request: AdminCreate, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token, admin=True)
         if not (data_set is None):
             result = create_new_admin(db, request.admin_name, request.admin_email, request.password)
             app_log.info(f"/admin/addAdmin -> create new admin {request.admin_name}")
@@ -136,7 +136,7 @@ async def creating_admin(request: AdminCreate, token: str = Depends(oauth2_schme
 async def admin_update_password(request: ChangePassword, token: str = Depends(oauth2_schme),
                                 db: Session = Depends(get_db)):
     try:
-        deta_set = verify_token(token)
+        deta_set = verify_token(token, admin=True)
         app_log.info("/admin/changePassword -> OTP is equal | verify the token")
         if not (deta_set is None):
             response_result = admin_password_change(db, deta_set["admin_name"], deta_set["admin_email"],
@@ -157,7 +157,7 @@ async def admin_update_password(request: ChangePassword, token: str = Depends(oa
 @router.get("/verifyToken")
 async def verify_admin_token(token: str = Depends(oauth2_schme)):
     try:
-        data_set = verify_token(token)
+        data_set = verify_token(token,admin=True)
         app_log.info("/admin/verifyToken -> get dataset verified token")
         if not (data_set is None):
             return JSONResponse(status_code=200, content={"status": True, "detail": "token is verified"})

@@ -1,3 +1,5 @@
+from audioop import reverse
+
 from sqlalchemy import update, delete
 from Databases import models
 from sqlalchemy.orm import Session
@@ -65,3 +67,15 @@ def delete_topic_data(db: Session, topic_id: int):
         return True
     except Exception as e:
         err_log.error(f"|panel_function - delete_topic_data| -> {e}")
+
+def get_call_logs(date: str):
+    try:
+        logs_list = []
+        with open("logs/daily_conference_logs/"+ str(date), "r") as file:
+            for line in file:
+                logs_list.append(line.strip())
+        app_log.info(f"|panel_function - get_call_logs| -> file read successfully: Date {date}")
+        return logs_list
+    except Exception as e:
+        err_log.error(f"|panel_function - get_call_logs| -> {e}")
+        return None

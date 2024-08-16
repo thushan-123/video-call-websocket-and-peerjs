@@ -44,3 +44,6 @@ class ApproveStudent(BaseModel):
 # Create schema -> reject student
 class RejectStudent(BaseModel):
     id: int
+
+
+

@@ -62,3 +62,7 @@
 2024-08-13 19:51:39,083 - ERROR - |authAdmin -> authenticate_admin| - 'NoneType' object has no attribute 'password'
 2024-08-13 21:56:59,842 - ERROR - /user/logged/updateStudent -> argument of type 'NoneType' is not iterable
 2024-08-13 22:02:35,978 - ERROR - /user/logged/updateStudent -> unhashable type: 'slice'
+2024-08-16 18:29:42,087 - ERROR - |panel_function - get_call_logs| -> [Errno 2] No such file or directory: '../../../logs/daily_conference_logs/2024-08-16'
+2024-08-16 18:30:57,381 - ERROR - |panel_function - get_call_logs| -> reverse expected 2 arguments, got 1
+2024-08-16 18:33:54,110 - ERROR - /admin/logged/callLogs -> object of type 'NoneType' has no len()
+2024-08-16 18:54:57,151 - ERROR - |panel_function - get_call_logs| -> [Errno 2] No such file or directory: 'logs/daily_conference_logs/2024-08-1'

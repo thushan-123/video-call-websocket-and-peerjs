@@ -2,7 +2,7 @@ import hashlib
 from Databases.database import SessionLocal
 import random
 import string
-from datetime import datetime, date
+from datetime import datetime
 import pytz
 import re
 

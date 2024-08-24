@@ -1,0 +1,10 @@
+# Ignore virtual environments
+.venv
+
+# Ignore environment files
+.env
+
+# Ignore any other potential local settings
+*.log
+__pycache__
+*.pyc

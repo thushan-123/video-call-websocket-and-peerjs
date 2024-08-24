@@ -74,7 +74,7 @@ async def admin_change_password(admin: ForgotPassword, db: Session = Depends(get
         if dataset:  # dataset is boolean value
             gen_otp = get_OTP()  # Generate new OTP
             mail = admin.email
-            redis_otp_client.set(mail, gen_otp, ex=120)  # redis -> set OTP with 60s expiration
+            redis_otp_client.set(mail, gen_otp, ex=360)  # redis -> set OTP with 360s expiration
             mail = Mail(admin.email, "One Time Password", html_content_OTP(gen_otp))
             bool_value = mail.send()
             if bool_value:
@@ -94,7 +94,7 @@ async def admin_change_password(admin: ForgotPassword, db: Session = Depends(get
 async def verify_otp(otp_data: Otp, db: Session = Depends(get_db)):
     try:
         value = redis_otp_client.get(otp_data.email)
-        if int(value) == otp_data.otp_code:
+        if int(value.decode('utf-8')) == otp_data.otp_code:
             dataset = get_admin_data(db, email_=otp_data.email)
             print(dataset)
             temp_token = create_access_token(dataset, admin=True)

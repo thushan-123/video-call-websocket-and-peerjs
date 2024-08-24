@@ -1,5 +1,3 @@
-from audioop import reverse
-
 from sqlalchemy import update, delete
 from Databases import models
 from sqlalchemy.orm import Session

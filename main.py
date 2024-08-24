@@ -27,8 +27,8 @@ except Exception as e:
 # Get the JWT token from the Authorization header
 oauth2_schme = OAuth2PasswordBearer(tokenUrl="token")
 
-# docs_url=None, redoc_url=None, openapi_url=None
-app = FastAPI()
+
+app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
 
 origins = ["http://localhost", "http://localhost:8000"]
 blocked_urls = ["/docs"]

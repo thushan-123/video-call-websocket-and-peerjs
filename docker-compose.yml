@@ -8,7 +8,7 @@ services:
       dockerfile: Dockerfile
     container_name: exedeme_project
     ports:
-      - "80:80"
+      - "8000:8000"
     depends_on:
       - mariadb
       - redis
@@ -45,6 +45,19 @@ services:
       - "6379:6379"
     volumes:
       - redis_data:/data
+
+  caddy:
+    image: caddy:latest
+    container_name: caddy_web_server
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+      - ./Caddyfile:/etc/caddy/Caddyfile
+    depends_on:
+      - fastapi_app
 
 volumes:
   mariadb_data:

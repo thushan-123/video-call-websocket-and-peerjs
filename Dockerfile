@@ -19,4 +19,4 @@ COPY . /app
 
 # start the uvicorn cmd
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80", "--reload"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

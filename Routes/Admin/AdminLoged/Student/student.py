@@ -64,7 +64,7 @@ async def updating_student(request: UpdateStudent, token: str = Depends(oauth2_s
         return JSONResponse(status_code=400, content={"status": False, "detail": "Bad request"})
 
 
-@router.patch("/blockStudent")
+@router.put("/blockStudent")
 async def blocking_student(request: BlockStudent, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
         data_set = verify_token(token,admin=True)

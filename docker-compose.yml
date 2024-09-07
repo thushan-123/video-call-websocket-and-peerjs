@@ -17,7 +17,7 @@ services:
       - ADMIN_SECRET_KEY=SjhOIhpo9OHHUOuipIutftf&d\cAJ0bbHJGHYT687gu8*hjihuk9JQgFDJrp4Fdbk0o|?
       - SECRET_KEY=puwar0eqmh2tBMqXBEE/cAJ0bbFufsNKQLCMO463qY4hOk9JQgFDJrp4Fdbk0oK
       - ALGORITHM=HS256
-      - TIME=120
+      - TIME=43200
       - COMPANY_EMAIL=thushanmadusanka456@gmail.com
       - COMPANY_EMAIL_PASSWORD=blsz ecbc tbjr fxst
 

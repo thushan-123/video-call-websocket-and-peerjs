@@ -94,7 +94,7 @@ async def delete_topic(request: DeleteTopic, token: str = Depends(oauth2_schme),
         err_log.error(f"/admin/logged/deleteTopic -> {e}")
         return JSONResponse(status_code=400, content={"status": False, "detail": "Bad request"})
 
-@router.get("/callLogs")
+@router.post("/callLogs")
 async def get_daily_call_logs(request: DailyCalls, token: str = Depends(oauth2_schme)):
     try:
         data_set = verify_token(token, admin=True)

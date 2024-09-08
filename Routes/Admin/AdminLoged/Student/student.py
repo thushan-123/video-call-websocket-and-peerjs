@@ -124,7 +124,7 @@ async def retrieve_all_student(token: str = Depends(oauth2_schme), db: Session =
         return JSONResponse(status_code=400, content={"status": False, "detail": "Bad request"})
 
 
-@router.get("/searchVerifyStudent")
+@router.post("/searchVerifyStudent")
 async def searching_student(request: SearchStudent, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
         data_set = verify_token(token,admin=True)

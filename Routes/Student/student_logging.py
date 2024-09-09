@@ -24,7 +24,8 @@ async def loging_student(request: StudentLogin, db: Session = Depends(get_db)):
         if not (data_dict is None):
             app_log.info(f"/user/studentLogin -> login success {request.username}")
             access_token = create_access_token(data_dict)
-            return JSONResponse(status_code=200, content={"status": "success", "token": access_token})
+            data_dict['token'] = access_token
+            return JSONResponse(status_code=200, content={"status": "success", "data": data_dict})
         else:
             app_log.warning(f"/user/studentLogin -> login fail {request.username} {request.password}")
             return JSONResponse(status_code=400, content={"status": False, "detail": "invalid username or password"})

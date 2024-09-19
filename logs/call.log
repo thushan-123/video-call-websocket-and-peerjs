@@ -140,3 +140,313 @@
 2024-08-21 19:45:36,647 - INFO - User thush disconnected. kamal is now waiting for new users.
 2024-08-21 19:45:54,693 - INFO - User kamal disconnected
 2024-08-21 19:45:54,693 - INFO - User kamal disconnected but was not in a conference.
+2024-09-14 17:11:26,121 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-14 17:12:15,073 - INFO - User thush connected - peer connection id: 1234
+2024-09-14 17:15:57,938 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '1234'}
+2024-09-14 17:15:57,939 - INFO - Conference started between thush - kamal
+2024-09-14 17:16:50,780 - INFO - User kamal connected - peer connection id: 1235gf
+2024-09-14 17:17:31,991 - INFO - User thush disconnected
+2024-09-14 17:17:31,991 - INFO - Conference between thush and kamal ended. Duration: 0:01:34.055478
+2024-09-14 17:17:31,991 - INFO - Message sent to kamal: {'type': 'waiting_for_users'}
+2024-09-14 17:17:31,991 - INFO - User thush disconnected. kamal is now waiting for new users.
+2024-09-14 17:17:49,495 - INFO - User kamal is waiting for more users to join
+2024-09-14 17:17:51,486 - INFO - User kamal is waiting for more users to join
+2024-09-14 17:18:07,547 - INFO - User kamal is waiting for more users to join
+2024-09-14 17:18:09,187 - INFO - User kamal is waiting for more users to join
+2024-09-14 17:18:40,343 - INFO - User thush connected - peer connection id: 1234
+2024-09-14 17:18:42,867 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '1234'}
+2024-09-14 17:18:42,867 - INFO - Conference started between thush - kamal
+2024-09-14 17:19:00,424 - INFO - User kamal disconnected
+2024-09-14 17:19:00,425 - INFO - Conference between kamal and thush ended. Duration: 0:00:17.558528
+2024-09-14 17:19:00,425 - INFO - Message sent to thush: {'type': 'waiting_for_users'}
+2024-09-14 17:19:00,425 - INFO - User kamal disconnected. thush is now waiting for new users.
+2024-09-14 17:19:16,846 - INFO - User kamal is waiting for more users to join
+2024-09-14 17:20:41,945 - INFO - User kamal disconnected
+2024-09-14 17:20:41,945 - ERROR - 'kamal'
+2024-09-14 17:20:44,061 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-14 17:20:46,261 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-14 17:20:46,262 - INFO - Conference started between kamal - thush
+2024-09-14 17:21:08,533 - INFO - User thush disconnected
+2024-09-14 17:21:08,533 - INFO - Conference between thush and kamal ended. Duration: 0:00:22.272173
+2024-09-14 17:21:08,533 - INFO - Message sent to kamal: {'type': 'waiting_for_users'}
+2024-09-14 17:21:08,533 - INFO - User thush disconnected. kamal is now waiting for new users.
+2024-09-14 17:21:24,049 - INFO - User kamal connected - peer connection id: 1235gf
+2024-09-14 17:21:26,309 - INFO - User kamal is waiting for more users to join
+2024-09-14 17:24:03,248 - INFO - User kamal disconnected
+2024-09-14 17:24:03,248 - INFO - User kamal disconnected but was not in a conference.
+2024-09-14 17:24:03,249 - INFO - User kamal disconnected
+2024-09-14 17:24:03,250 - ERROR - 'kamal'
+2024-09-14 17:24:30,425 - INFO - User kamal connected - peer connection id: 1235gf
+2024-09-14 17:24:34,132 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-14 17:24:36,591 - INFO - User thush connected - peer connection id: 1234
+2024-09-14 17:24:39,264 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '1234'}
+2024-09-14 17:24:39,264 - INFO - Conference started between thush - kamal
+2024-09-14 17:25:03,217 - INFO - User kamal disconnected
+2024-09-14 17:25:03,217 - INFO - Conference between kamal and thush ended. Duration: 0:00:23.953977
+2024-09-14 17:25:03,217 - INFO - Message sent to thush: {'type': 'waiting_for_users'}
+2024-09-14 17:25:03,217 - INFO - User kamal disconnected. thush is now waiting for new users.
+2024-09-14 17:25:10,930 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-14 17:25:10,930 - INFO - Conference started between kamal - thush
+2024-09-14 17:26:16,160 - INFO - User thush disconnected
+2024-09-14 17:26:16,160 - INFO - Conference between thush and kamal ended. Duration: 0:01:05.230936
+2024-09-14 17:26:16,160 - WARNING - Attempted to send message to non-existent connection for user kamal
+2024-09-14 17:26:16,160 - INFO - User thush disconnected. kamal is now waiting for new users.
+2024-09-14 17:26:16,161 - INFO - User kamal disconnected
+2024-09-14 17:26:16,161 - ERROR - 'kamal'
+2024-09-14 17:26:25,948 - INFO - User thush connected - peer connection id: 1234
+2024-09-14 17:26:27,841 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-14 17:26:31,951 - INFO - User kamal connected - peer connection id: 1235gf
+2024-09-14 17:26:33,757 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1235gf'}
+2024-09-14 17:26:33,757 - INFO - Conference started between kamal - thush
+2024-09-14 17:30:02,847 - INFO - User kamal disconnected
+2024-09-14 17:30:02,847 - INFO - Conference between kamal and thush ended. Duration: 0:03:29.091131
+2024-09-14 17:30:02,847 - ERROR - Error sending message to thush: 
+2024-09-14 17:30:02,847 - INFO - User kamal disconnected. thush is now waiting for new users.
+2024-09-14 17:30:02,848 - INFO - User kamal disconnected
+2024-09-14 17:30:02,848 - ERROR - 'kamal'
+2024-09-14 17:30:02,848 - INFO - User thush disconnected
+2024-09-14 17:30:02,848 - INFO - User thush disconnected but was not in a conference.
+2024-09-14 17:30:22,587 - INFO - User kamal connected - peer connection id: 1235gf
+2024-09-14 17:30:26,705 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-14 17:30:28,759 - INFO - User thush connected - peer connection id: 1234
+2024-09-14 17:30:32,576 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-14 17:30:32,576 - INFO - Conference started between kamal - thush
+2024-09-14 17:32:31,747 - INFO - User thushxch connected - peer connection id: 123
+2024-09-14 17:37:35,103 - INFO - User kamal disconnected
+2024-09-14 17:37:35,104 - INFO - Conference between kamal and thush ended. Duration: 0:07:02.528110
+2024-09-14 17:37:35,105 - ERROR - Error sending message to thush: 
+2024-09-14 17:37:35,105 - ERROR - Error sending message to thushxch: 
+2024-09-14 17:37:35,105 - INFO - User kamal disconnected. Replaced with thushxch in conference with thush.
+2024-09-14 17:37:35,105 - INFO - User kamal disconnected
+2024-09-14 17:37:35,106 - ERROR - 'kamal'
+2024-09-14 17:37:35,106 - INFO - User thushxch disconnected
+2024-09-14 17:37:35,106 - ERROR - Error sending message to thush: Cannot call "send" once a close message has been sent.
+2024-09-14 17:37:35,107 - INFO - User thushxch disconnected. thush is now waiting for new users.
+2024-09-14 17:37:35,107 - INFO - User thush disconnected
+2024-09-14 17:37:35,107 - INFO - User thush disconnected but was not in a conference.
+2024-09-19 10:13:08,453 - INFO - User thushxch connected - peer connection id: 123
+2024-09-19 10:14:02,799 - INFO - User thushxch is waiting for more users to join
+2024-09-19 10:14:09,002 - INFO - User thush connected - peer connection id: 1234
+2024-09-19 10:14:16,806 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-19 10:14:23,869 - INFO - User kamal connected - peer connection id: 1235gf
+2024-09-19 10:14:43,292 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '1234'}
+2024-09-19 10:14:43,292 - INFO - Conference started between thush - kamal
+2024-09-19 10:15:13,709 - INFO - Message sent to thushxch: {'type': 'conference_started', 'peer_id': '1235gf'}
+2024-09-19 10:15:13,709 - INFO - Conference started between kamal - thushxch
+2024-09-19 10:15:38,943 - INFO - User thushxch disconnected
+2024-09-19 10:15:38,943 - INFO - Conference between thushxch and kamal ended. Duration: 0:00:25.234407
+2024-09-19 10:15:38,943 - INFO - Message sent to kamal: {'type': 'waiting_for_users'}
+2024-09-19 10:15:38,943 - INFO - User thushxch disconnected. kamal is now waiting for new users.
+2024-09-19 10:16:07,439 - INFO - User thush disconnected
+2024-09-19 10:16:07,439 - INFO - Conference between thush and kamal ended. Duration: 0:01:24.148027
+2024-09-19 10:16:07,440 - INFO - Message sent to kamal: {'type': 'waiting_for_users'}
+2024-09-19 10:16:07,440 - INFO - User thush disconnected. kamal is now waiting for new users.
+2024-09-19 10:16:18,144 - INFO - User kamal is waiting for more users to join
+2024-09-19 10:16:20,070 - INFO - User kamal is waiting for more users to join
+2024-09-19 10:16:35,542 - INFO - User kamal is waiting for more users to join
+2024-09-19 10:16:36,664 - INFO - User kamal is waiting for more users to join
+2024-09-19 10:16:41,554 - INFO - User kamal is waiting for more users to join
+2024-09-19 10:17:21,975 - INFO - User kamal disconnected
+2024-09-19 10:17:21,975 - INFO - User kamal disconnected but was not in a conference.
+2024-09-19 10:17:28,280 - INFO - User kamal disconnected
+2024-09-19 10:17:28,280 - ERROR - 'kamal'
+2024-09-19 10:19:00,626 - INFO - User kamal connected - peer connection id: 1235gf
+2024-09-19 10:19:05,605 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-19 10:19:09,144 - INFO - User thush connected - peer connection id: 1234
+2024-09-19 10:19:11,621 - INFO - User thushxch connected - peer connection id: 123
+2024-09-19 10:19:15,120 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '123'}
+2024-09-19 10:19:15,121 - INFO - Conference started between thushxch - kamal
+2024-09-19 10:19:54,932 - INFO - User thushxch disconnected
+2024-09-19 10:19:54,933 - INFO - Conference between thushxch and kamal ended. Duration: 0:00:39.813298
+2024-09-19 10:19:54,933 - INFO - Message sent to kamal: {'type': 'conference_user_replaced', 'peer_id': '1234'}
+2024-09-19 10:19:54,934 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-19 10:19:54,934 - INFO - User thushxch disconnected. Replaced with thush in conference with kamal.
+2024-09-19 10:19:57,859 - INFO - User thush disconnected
+2024-09-19 10:19:57,859 - INFO - Message sent to kamal: {'type': 'waiting_for_users'}
+2024-09-19 10:19:57,859 - INFO - User thush disconnected. kamal is now waiting for new users.
+2024-09-19 10:20:00,353 - INFO - User kamal disconnected
+2024-09-19 10:20:00,353 - INFO - User kamal disconnected but was not in a conference.
+2024-09-19 10:20:02,225 - INFO - User kamal disconnected
+2024-09-19 10:20:02,225 - ERROR - 'kamal'
+2024-09-19 10:22:49,773 - INFO - User sajith connected - peer connection id: 123
+2024-09-19 10:22:52,252 - INFO - User thush connected - peer connection id: 1234
+2024-09-19 10:22:54,209 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-19 10:22:57,501 - INFO - User namal connected - peer connection id: 1235gf
+2024-09-19 10:23:23,470 - INFO - Message sent to namal: {'type': 'conference_started', 'peer_id': '123'}
+2024-09-19 10:23:23,470 - INFO - Conference started between sajith - namal
+2024-09-19 10:23:43,789 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-19 10:23:43,789 - INFO - Conference started between kamal - thush
+2024-09-19 10:24:40,749 - INFO - User thush disconnected
+2024-09-19 10:24:40,749 - INFO - Conference between thush and kamal ended. Duration: 0:00:56.961112
+2024-09-19 10:24:40,750 - ERROR - Error sending message to kamal: 
+2024-09-19 10:24:40,750 - INFO - User thush disconnected. kamal is now waiting for new users.
+2024-09-19 10:24:40,750 - INFO - User namal disconnected
+2024-09-19 10:24:40,750 - INFO - Conference between namal and sajith ended. Duration: 0:01:17.281884
+2024-09-19 10:24:40,751 - ERROR - Error sending message to sajith: 
+2024-09-19 10:24:40,752 - ERROR - Error sending message to kamal: Cannot call "send" once a close message has been sent.
+2024-09-19 10:24:40,752 - INFO - User namal disconnected. Replaced with kamal in conference with sajith.
+2024-09-19 10:24:40,754 - INFO - User sajith disconnected
+2024-09-19 10:24:40,755 - ERROR - Error sending message to kamal: Cannot call "send" once a close message has been sent.
+2024-09-19 10:24:40,755 - INFO - User sajith disconnected. kamal is now waiting for new users.
+2024-09-19 10:24:40,756 - INFO - User kamal disconnected
+2024-09-19 10:24:40,757 - INFO - User kamal disconnected but was not in a conference.
+2024-09-19 10:25:17,167 - INFO - User sajith connected - peer connection id: 123
+2024-09-19 10:25:19,130 - INFO - User thush connected - peer connection id: 1234
+2024-09-19 10:25:21,946 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-19 10:25:31,006 - INFO - User namal connected - peer connection id: 1235gf
+2024-09-19 10:25:34,556 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '1235gf'}
+2024-09-19 10:25:34,556 - INFO - Conference started between namal - kamal
+2024-09-19 10:25:50,885 - INFO - Message sent to sajith: {'type': 'conference_started', 'peer_id': '1234'}
+2024-09-19 10:25:50,885 - INFO - Conference started between thush - sajith
+2024-09-19 10:26:20,595 - INFO - User sajith disconnected
+2024-09-19 10:26:20,595 - INFO - Conference between sajith and thush ended. Duration: 0:00:29.710189
+2024-09-19 10:26:20,595 - INFO - Message sent to thush: {'type': 'waiting_for_users'}
+2024-09-19 10:26:20,595 - INFO - User sajith disconnected. thush is now waiting for new users.
+2024-09-19 10:26:45,515 - INFO - User namal disconnected
+2024-09-19 10:26:45,515 - INFO - Conference between namal and kamal ended. Duration: 0:01:10.960224
+2024-09-19 10:26:45,515 - INFO - Message sent to kamal: {'type': 'conference_user_replaced', 'peer_id': '1234'}
+2024-09-19 10:26:45,516 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-19 10:26:45,516 - INFO - User namal disconnected. Replaced with thush in conference with kamal.
+2024-09-19 10:26:50,621 - INFO - User namal connected - peer connection id: 1235gf
+2024-09-19 10:27:45,973 - INFO - User namal disconnected
+2024-09-19 10:27:45,982 - INFO - User namal disconnected but was not in a conference.
+2024-09-19 10:28:02,466 - INFO - User kamal disconnected
+2024-09-19 10:28:02,467 - INFO - Message sent to thush: {'type': 'waiting_for_users'}
+2024-09-19 10:28:02,467 - INFO - User kamal disconnected. thush is now waiting for new users.
+2024-09-19 10:28:19,233 - INFO - User namal connected - peer connection id: 1235gf
+2024-09-19 10:28:20,802 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1235gf'}
+2024-09-19 10:28:20,802 - INFO - Conference started between namal - thush
+2024-09-19 10:28:30,199 - INFO - User thush disconnected
+2024-09-19 10:28:30,199 - INFO - Conference between thush and namal ended. Duration: 0:00:09.397526
+2024-09-19 10:28:30,199 - INFO - Message sent to namal: {'type': 'waiting_for_users'}
+2024-09-19 10:28:30,199 - INFO - User thush disconnected. namal is now waiting for new users.
+2024-09-19 10:29:06,746 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-19 10:29:11,874 - INFO - Message sent to namal: {'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-19 10:29:11,874 - INFO - Conference started between kamal - namal
+2024-09-19 10:29:16,630 - INFO - User thush connected - peer connection id: 1234
+2024-09-19 10:29:37,069 - INFO - User sajith connected - peer connection id: 123
+2024-09-19 10:29:38,645 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '123'}
+2024-09-19 10:29:38,645 - INFO - Conference started between sajith - thush
+2024-09-19 10:30:01,044 - INFO - User kamal disconnected
+2024-09-19 10:30:01,044 - INFO - Conference between kamal and namal ended. Duration: 0:00:49.171044
+2024-09-19 10:30:01,044 - INFO - Message sent to namal: {'type': 'waiting_for_users'}
+2024-09-19 10:30:01,044 - INFO - User kamal disconnected. namal is now waiting for new users.
+2024-09-19 10:30:06,851 - INFO - User thush disconnected
+2024-09-19 10:30:06,851 - INFO - Conference between thush and sajith ended. Duration: 0:00:28.206131
+2024-09-19 10:30:06,851 - INFO - Message sent to sajith: {'type': 'conference_user_replaced', 'peer_id': '1235gf'}
+2024-09-19 10:30:06,852 - INFO - Message sent to namal: {'type': 'conference_started', 'peer_id': '123'}
+2024-09-19 10:30:06,852 - INFO - User thush disconnected. Replaced with namal in conference with sajith.
+2024-09-19 10:31:41,680 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-19 10:34:25,569 - INFO - User namal disconnected
+2024-09-19 10:34:25,571 - ERROR - Error sending message to sajith: 
+2024-09-19 10:34:25,571 - ERROR - Error sending message to kamal: 
+2024-09-19 10:34:25,571 - INFO - User namal disconnected. Replaced with kamal in conference with sajith.
+2024-09-19 10:34:25,572 - INFO - User kamal disconnected
+2024-09-19 10:34:25,573 - ERROR - Error sending message to sajith: Cannot call "send" once a close message has been sent.
+2024-09-19 10:34:25,573 - INFO - User kamal disconnected. sajith is now waiting for new users.
+2024-09-19 10:34:25,574 - INFO - User sajith disconnected
+2024-09-19 10:34:25,574 - INFO - User sajith disconnected but was not in a conference.
+2024-09-19 10:34:50,507 - INFO - User sajith connected - peer connection id: 123
+2024-09-19 10:34:52,414 - INFO - User thush connected - peer connection id: 1234
+2024-09-19 10:34:54,345 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-19 10:34:56,509 - INFO - User namal connected - peer connection id: 1235gf
+2024-09-19 10:34:59,728 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '1235gf'}
+2024-09-19 10:34:59,729 - INFO - Conference started between namal - kamal
+2024-09-19 10:35:08,416 - INFO - Message sent to sajith: {'type': 'conference_started', 'peer_id': '1234'}
+2024-09-19 10:35:08,416 - INFO - Conference started between thush - sajith
+2024-09-19 10:35:15,151 - INFO - User sajith disconnected
+2024-09-19 10:35:15,152 - INFO - Conference between sajith and thush ended. Duration: 0:00:06.736357
+2024-09-19 10:35:15,152 - INFO - Message sent to thush: {'type': 'waiting_for_users'}
+2024-09-19 10:35:15,152 - INFO - User sajith disconnected. thush is now waiting for new users.
+2024-09-19 10:35:20,973 - INFO - User thush is waiting for more users to join
+2024-09-19 10:35:27,846 - INFO - User sajith connected - peer connection id: 123
+2024-09-19 10:35:29,553 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '123'}
+2024-09-19 10:35:29,554 - INFO - Conference started between sajith - thush
+2024-09-19 10:35:37,415 - INFO - User sajith disconnected
+2024-09-19 10:35:37,415 - INFO - Conference between sajith and thush ended. Duration: 0:00:07.862262
+2024-09-19 10:35:37,415 - INFO - Message sent to thush: {'type': 'waiting_for_users'}
+2024-09-19 10:35:37,415 - INFO - User sajith disconnected. thush is now waiting for new users.
+2024-09-19 10:35:43,856 - INFO - User thush is waiting for more users to join
+2024-09-19 10:35:44,399 - INFO - User thush is waiting for more users to join
+2024-09-19 10:35:44,637 - INFO - User thush is waiting for more users to join
+2024-09-19 10:35:44,949 - INFO - User thush is waiting for more users to join
+2024-09-19 10:36:00,991 - INFO - User kamal disconnected
+2024-09-19 10:36:00,991 - INFO - Conference between kamal and namal ended. Duration: 0:01:01.264910
+2024-09-19 10:36:00,991 - INFO - Message sent to namal: {'type': 'conference_user_replaced', 'peer_id': '1234'}
+2024-09-19 10:36:00,992 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1235gf'}
+2024-09-19 10:36:00,992 - INFO - User kamal disconnected. Replaced with thush in conference with namal.
+2024-09-19 10:36:08,251 - INFO - User namal disconnected
+2024-09-19 10:36:08,251 - INFO - Message sent to thush: {'type': 'waiting_for_users'}
+2024-09-19 10:36:08,251 - INFO - User namal disconnected. thush is now waiting for new users.
+2024-09-19 10:36:28,160 - INFO - User thush disconnected
+2024-09-19 10:36:28,161 - INFO - User thush disconnected but was not in a conference.
+2024-09-19 13:27:01,977 - INFO - User thush connected - peer connection id: 1234
+2024-09-19 13:27:05,925 - INFO - User sajith connected - peer connection id: 123
+2024-09-19 13:27:08,843 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-19 13:27:10,739 - INFO - User namal connected - peer connection id: 1235gf
+2024-09-19 13:27:13,407 - INFO - Message sent to sajith: {'type': 'conference_started', 'peer_id': '1235gf'}
+2024-09-19 13:27:13,408 - INFO - Conference started between namal - sajith
+2024-09-19 13:27:33,837 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-19 13:27:33,837 - INFO - Conference started between kamal - thush
+2024-09-19 13:27:44,835 - INFO - User sajith disconnected
+2024-09-19 13:27:44,836 - INFO - Conference between sajith and namal ended. Duration: 0:00:31.429208
+2024-09-19 13:27:44,836 - INFO - Message sent to namal: {'status': False, 'type': 'waiting_for_users'}
+2024-09-19 13:27:44,836 - INFO - User sajith disconnected. namal is now waiting for new users.
+2024-09-19 13:27:53,606 - INFO - User thush disconnected
+2024-09-19 13:27:53,606 - INFO - Conference between thush and kamal ended. Duration: 0:00:19.770232
+2024-09-19 13:27:53,607 - INFO - Message sent to kamal: {'type': 'conference_user_replaced', 'peer_id': '1235gf'}
+2024-09-19 13:27:53,607 - INFO - Message sent to namal: {'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-19 13:27:53,607 - INFO - User thush disconnected. Replaced with namal in conference with kamal.
+2024-09-19 13:28:06,554 - INFO - User kamal disconnected
+2024-09-19 13:28:06,554 - INFO - Message sent to namal: {'status': False, 'type': 'waiting_for_users'}
+2024-09-19 13:28:06,554 - INFO - User kamal disconnected. namal is now waiting for new users.
+2024-09-19 13:29:26,320 - INFO - User namal disconnected
+2024-09-19 13:29:26,320 - INFO - User namal disconnected but was not in a conference.
+2024-09-19 13:29:45,556 - INFO - User namal connected - peer connection id: 1235gf
+2024-09-19 13:29:47,559 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-19 13:29:49,952 - INFO - Message sent to kamal: {'type': 'conference_started', 'peer_id': '1235gf'}
+2024-09-19 13:29:49,952 - INFO - Conference started between namal - kamal
+2024-09-19 13:29:52,894 - INFO - User thush connected - peer connection id: 1234
+2024-09-19 13:29:54,732 - INFO - User sajith connected - peer connection id: 123
+2024-09-19 13:29:55,732 - INFO - Message sent to thush: {'type': 'conference_started', 'peer_id': '123'}
+2024-09-19 13:29:55,732 - INFO - Conference started between sajith - thush
+2024-09-19 13:30:07,753 - INFO - User kamal disconnected
+2024-09-19 13:30:07,754 - INFO - Conference between kamal and namal ended. Duration: 0:00:17.802749
+2024-09-19 13:30:07,754 - INFO - Message sent to namal: {'status': False, 'type': 'waiting_for_users'}
+2024-09-19 13:30:07,754 - INFO - User kamal disconnected. namal is now waiting for new users.
+2024-09-19 13:30:32,742 - INFO - User sajith disconnected
+2024-09-19 13:30:32,742 - INFO - Conference between sajith and thush ended. Duration: 0:00:37.011566
+2024-09-19 13:30:32,742 - INFO - Message sent to thush: {'status': True, 'type': 'conference_user_replaced', 'peer_id': '1235gf'}
+2024-09-19 13:30:32,743 - INFO - Message sent to namal: {'status': False, 'type': 'conference_started', 'peer_id': '1234'}
+2024-09-19 13:30:32,743 - INFO - User sajith disconnected. Replaced with namal in conference with thush.
+2024-09-19 13:31:03,609 - INFO - User namal disconnected
+2024-09-19 13:31:03,609 - INFO - Message sent to thush: {'status': False, 'type': 'waiting_for_users'}
+2024-09-19 13:31:03,609 - INFO - User namal disconnected. thush is now waiting for new users.
+2024-09-19 13:31:11,603 - INFO - User thush disconnected
+2024-09-19 13:31:11,603 - INFO - User thush disconnected but was not in a conference.
+2024-09-19 13:33:52,336 - INFO - User namal connected - peer connection id: 1235gf
+2024-09-19 13:33:55,600 - INFO - User kamal connected - peer connection id: 1235gfg
+2024-09-19 13:34:05,838 - INFO - Message sent to namal: {'status': True, 'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-19 13:34:05,838 - INFO - Conference started between kamal - namal
+2024-09-19 13:34:17,457 - INFO - User thush connected - peer connection id: 1234
+2024-09-19 13:34:20,146 - INFO - User sajith connected - peer connection id: 123
+2024-09-19 13:34:21,860 - INFO - Message sent to thush: {'status': True, 'type': 'conference_started', 'peer_id': '123'}
+2024-09-19 13:34:21,861 - INFO - Conference started between sajith - thush
+2024-09-19 13:34:29,110 - INFO - User thush disconnected
+2024-09-19 13:34:29,110 - INFO - Conference between thush and sajith ended. Duration: 0:00:07.250151
+2024-09-19 13:34:29,110 - INFO - Message sent to sajith: {'status': False, 'type': 'waiting_for_users'}
+2024-09-19 13:34:29,110 - INFO - User thush disconnected. sajith is now waiting for new users.
+2024-09-19 13:34:39,880 - INFO - User sajith is waiting for more users to join
+2024-09-19 13:35:01,820 - INFO - User namal disconnected
+2024-09-19 13:35:01,820 - INFO - Conference between namal and kamal ended. Duration: 0:00:55.983627
+2024-09-19 13:35:01,821 - INFO - Message sent to kamal: {'status': True, 'type': 'conference_user_replaced', 'peer_id': '123'}
+2024-09-19 13:35:01,821 - INFO - Message sent to sajith: {'status': False, 'type': 'conference_started', 'peer_id': '1235gfg'}
+2024-09-19 13:35:01,821 - INFO - User namal disconnected. Replaced with sajith in conference with kamal.
+2024-09-19 13:35:20,858 - INFO - User kamal disconnected
+2024-09-19 13:35:20,859 - INFO - Message sent to sajith: {'status': False, 'type': 'waiting_for_users'}
+2024-09-19 13:35:20,859 - INFO - User kamal disconnected. sajith is now waiting for new users.
+2024-09-19 13:35:25,672 - INFO - User sajith is waiting for more users to join
+2024-09-19 13:35:26,744 - INFO - User sajith is waiting for more users to join
+2024-09-19 13:35:26,984 - INFO - User sajith is waiting for more users to join
+2024-09-19 13:35:29,593 - INFO - User sajith disconnected
+2024-09-19 13:35:29,593 - INFO - User sajith disconnected but was not in a conference.

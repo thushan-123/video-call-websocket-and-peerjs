@@ -10,6 +10,9 @@ router = APIRouter()
 # Store connected users
 connected_users = set()
 
+# Store waiting users
+waiting_users = set()
+
 # Store websocket connection
 connections = {}
 
@@ -35,7 +38,7 @@ async def send_to_user(user_id: str, message: dict):
 
 # Handle the conference
 async def handle_conference(websocket: WebSocket, user_id: str):
-    if len(connected_users) >= 2:
+    if len(connected_users) >= 2 and len(connected_users) % 2 == 0:
         # Random select another user and create conference
         potential_users = [user for user in connected_users if user not in conferences and user != user_id]
         if potential_users:
@@ -50,14 +53,14 @@ async def handle_conference(websocket: WebSocket, user_id: str):
             # Send notification to users about the conference
             try:
                 await websocket.send_text(json.dumps(
-                    {"type": "conference_started", "peer_id": redis_call_client.get(other_user).decode("utf-8")}))
-                await send_to_user(other_user, {"type": "conference_started",
+                    {"status": True, "type": "conference_started", "peer_id": redis_call_client.get(other_user).decode("utf-8")}))
+                await send_to_user(other_user, {"status": True, "type": "conference_started",
                                                 "peer_id": redis_call_client.get(user_id).decode("utf-8")})
                 call_log.info(f"Conference started between {user_id} - {other_user}")
             except Exception as e:
                 call_log.error(f"Error starting conference between {user_id} - {other_user} : {e}")
     else:
-        await websocket.send_text(json.dumps({"type": "wait_for_users"}))
+        await websocket.send_text(json.dumps({"status": False, "type": "wait_for_users"}))
         call_log.info(f"User {user_id} is waiting for more users to join")
 
 
@@ -87,14 +90,14 @@ async def handle_disconnection(disconnected_user: str):
             conferences[other_user] = new_user
             conferences[new_user] = other_user
 
-            await send_to_user(other_user, {"type": "conference_user_replaced",
+            await send_to_user(other_user, {"status": True, "type": "conference_user_replaced",
                                             "peer_id": redis_call_client.get(new_user).decode("utf-8")})
-            await send_to_user(new_user, {"type": "conference_started",
+            await send_to_user(new_user, {"status": False, "type": "conference_started",
                                           "peer_id": redis_call_client.get(other_user).decode("utf-8")})
             call_log.info(
                 f"User {disconnected_user} disconnected. Replaced with {new_user} in conference with {other_user}.")
         else:
-            await send_to_user(other_user, {"type": "waiting_for_users"})
+            await send_to_user(other_user, {"status": False, "type": "waiting_for_users"})
             call_log.info(f"User {disconnected_user} disconnected. {other_user} is now waiting for new users.")
     else:
         call_log.info(f"User {disconnected_user} disconnected but was not in a conference.")

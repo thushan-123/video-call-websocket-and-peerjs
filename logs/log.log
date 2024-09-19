@@ -304,3 +304,20 @@
 2024-08-24 12:24:50,791 - INFO - /admin/forgetPassword - check valued admin
 2024-08-24 12:24:54,557 - INFO - |Mails - mail| -> email send to thushanmadhusanka3@gmail.com
 2024-08-24 12:24:54,557 - INFO - /admin/forgetPassword -> Email Send Success - receiver: thushanmadhusanka3@gmail.com
+2024-09-14 17:11:23,190 - INFO - redis database is connected successfully
+2024-09-14 17:24:08,380 - INFO - redis database is connected successfully
+2024-09-14 17:24:23,116 - INFO - redis database is connected successfully
+2024-09-14 17:26:17,287 - INFO - redis database is connected successfully
+2024-09-14 17:30:03,853 - INFO - redis database is connected successfully
+2024-09-14 17:37:36,209 - INFO - redis database is connected successfully
+2024-09-14 17:37:57,356 - INFO - redis database is connected successfully
+2024-09-16 18:27:01,208 - INFO - redis database is connected successfully
+2024-09-19 10:11:53,058 - INFO - redis database is connected successfully
+2024-09-19 10:18:56,393 - INFO - redis database is connected successfully
+2024-09-19 10:21:22,097 - INFO - redis database is connected successfully
+2024-09-19 10:24:42,027 - INFO - redis database is connected successfully
+2024-09-19 10:34:26,674 - INFO - redis database is connected successfully
+2024-09-19 10:36:29,220 - INFO - redis database is connected successfully
+2024-09-19 13:26:55,954 - INFO - redis database is connected successfully
+2024-09-19 13:29:27,389 - INFO - redis database is connected successfully
+2024-09-19 13:33:45,846 - INFO - redis database is connected successfully

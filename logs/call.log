@@ -450,3 +450,6 @@
 2024-09-19 13:35:26,984 - INFO - User sajith is waiting for more users to join
 2024-09-19 13:35:29,593 - INFO - User sajith disconnected
 2024-09-19 13:35:29,593 - INFO - User sajith disconnected but was not in a conference.
+2024-09-20 14:30:24,733 - INFO - User thush connected - peer connection id: 1234
+2024-09-20 14:33:43,655 - INFO - User thush disconnected
+2024-09-20 14:33:43,655 - INFO - User thush disconnected but was not in a conference.

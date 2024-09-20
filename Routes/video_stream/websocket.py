@@ -10,9 +10,6 @@ router = APIRouter()
 # Store connected users
 connected_users = set()
 
-# Store waiting users
-waiting_users = set()
-
 # Store websocket connection
 connections = {}
 

@@ -1,5 +1,8 @@
+from dns.resolver import query
+from sqlalchemy.exc import IntegrityError
+
 from Databases import models
-from sqlalchemy import update
+from sqlalchemy import update, text
 from sqlalchemy.orm import Session
 from Functions.function import verify_password, password_hash, get_sl_DateTime
 from Loggers.log import err_log, app_log
@@ -50,6 +53,9 @@ def insert_student_data(db: Session, f_name: str, l_name: str, user_name: str, e
         db.refresh(query)
         app_log.info(f"|student_login_function - insert_student_data| new data row add successfully {user_name}")
         return True
+    except IntegrityError as e:
+        db.rollback()  # Rollback on integrity error
+        err_log.error(f"|student_login_function - insert_student_data| -> {e}")
     except Exception as e:
         err_log.error(f"|student_login_function - insert_student_data| -> {e}")
         return False

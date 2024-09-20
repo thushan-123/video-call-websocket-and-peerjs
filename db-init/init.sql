@@ -4,7 +4,7 @@ USE edexme_db;
 -- Create the 'user' table
 CREATE TABLE IF NOT EXISTS `user` (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
-    `trainer_id` VARCHAR(20) UNIQUE NOT NULL DEFAULT '',
+    `trainer_id` VARCHAR(20) NOT NULL DEFAULT '',
     `f_name` VARCHAR(20) NOT NULL,
     `l_name` VARCHAR(20) NOT NULL,
     `user_name` VARCHAR(20) UNIQUE NOT NULL,
@@ -14,7 +14,6 @@ CREATE TABLE IF NOT EXISTS `user` (
     `join_date` DATE NOT NULL,
     `is_blocked` BOOLEAN NOT NULL DEFAULT FALSE,
     `verify` BOOLEAN NOT NULL DEFAULT FALSE,
-    INDEX (`trainer_id`),
     INDEX (`user_name`),
     INDEX (`email`),
     INDEX (`mobile`),

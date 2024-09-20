@@ -321,3 +321,71 @@
 2024-09-19 13:26:55,954 - INFO - redis database is connected successfully
 2024-09-19 13:29:27,389 - INFO - redis database is connected successfully
 2024-09-19 13:33:45,846 - INFO - redis database is connected successfully
+2024-09-19 15:53:40,966 - INFO - redis database is connected successfully
+2024-09-19 21:03:40,796 - INFO - redis database is connected successfully
+2024-09-19 21:04:21,198 - INFO - /user/registerStudent -> insert data successfully
+2024-09-19 21:06:07,787 - INFO - /user/registerStudent -> insert data successfully
+2024-09-19 21:08:16,628 - INFO - /user/registerStudent -> insert data successfully
+2024-09-19 21:09:09,773 - INFO - redis database is connected successfully
+2024-09-19 21:12:52,463 - INFO - redis database is connected successfully
+2024-09-19 21:16:33,640 - INFO - redis database is connected successfully
+2024-09-19 21:17:11,597 - INFO - redis database is connected successfully
+2024-09-19 21:17:35,923 - INFO - redis database is connected successfully
+2024-09-19 21:17:42,169 - INFO - |student_login_function - insert_student_data| new data row add successfully thushjhh-opsg
+2024-09-19 21:17:42,169 - INFO - /user/registerStudent -> insert data successfully
+2024-09-19 21:19:56,080 - INFO - |Mails - mail| -> email send to thushanmadhusankahj3@gmail.com
+2024-09-19 21:19:56,081 - INFO - /user/registerStudent -> email send successfully thushanmadhusankahj3@gmail.com
+2024-09-19 21:19:57,063 - INFO - redis database is connected successfully
+2024-09-19 21:21:49,000 - INFO - redis database is connected successfully
+2024-09-19 21:29:35,695 - INFO - redis database is connected successfully
+2024-09-19 21:35:10,869 - INFO - redis database is connected successfully
+2024-09-19 21:38:11,941 - INFO - redis database is connected successfully
+2024-09-19 21:40:57,231 - INFO - redis database is connected successfully
+2024-09-19 21:43:18,382 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-09-19 21:43:18,386 - INFO - /admin/logged/student/addStudent -> data adding is fail
+2024-09-19 21:44:00,040 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-09-19 21:44:00,045 - INFO - /admin/logged/student/addStudent -> data adding is fail
+2024-09-19 21:45:05,071 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-09-19 21:45:05,074 - INFO - /admin/logged/student/addStudent -> data adding is fail
+2024-09-19 21:45:14,677 - INFO - |auth -> verify_token| - successful Decode JWT
+2024-09-19 21:45:14,680 - INFO - /admin/logged/student/addStudent -> data adding is fail
+2024-09-19 21:48:30,683 - INFO - redis database is connected successfully
+2024-09-19 21:56:46,665 - INFO - redis database is connected successfully
+2024-09-19 22:04:19,977 - INFO - redis database is connected successfully
+2024-09-19 22:25:01,591 - INFO - redis database is connected successfully
+2024-09-19 22:26:16,208 - INFO - redis database is connected successfully
+2024-09-19 22:29:44,257 - INFO - redis database is connected successfully
+2024-09-19 22:31:51,752 - INFO - redis database is connected successfully
+2024-09-19 22:34:32,705 - INFO - redis database is connected successfully
+2024-09-19 22:37:06,745 - WARNING - /user/studentLogin -> login fail thush-eoe6 2rjhy9
+2024-09-19 22:39:29,202 - INFO - /admin/adminLogin - send response -> status: False (username|password incorrect)
+2024-09-20 06:46:15,589 - INFO - redis database is connected successfully
+2024-09-20 06:46:15,845 - INFO - Database is created
+2024-09-20 06:46:25,385 - INFO - |authAdmin -> authenticate_admin| - compare a password [True, False]
+2024-09-20 06:46:25,388 - INFO - |authAdmin - authenticate_admin| -> get result from admin db using username
+2024-09-20 06:46:25,388 - INFO - |auth - create_access_token| create successfully
+2024-09-20 06:46:25,389 - INFO - /admin/adminLogin -> send response  status: success
+2024-09-20 06:46:47,579 - INFO - |student_logging_function - check_email_mobile| -> get data from database success
+2024-09-20 06:46:47,581 - INFO - |student_login_function - insert_student_data| new data row add successfully thushjhh-elt7
+2024-09-20 06:46:47,581 - INFO - /user/registerStudent -> insert data successfully
+2024-09-20 06:49:01,193 - INFO - |Mails - mail| -> email send to thushanmadhusankahj3@gmail.com
+2024-09-20 06:49:01,194 - INFO - /user/registerStudent -> email send successfully thushanmadhusankahj3@gmail.com
+2024-09-20 06:51:21,296 - INFO - redis database is connected successfully
+2024-09-20 06:51:21,443 - INFO - Database is created
+2024-09-20 06:51:24,062 - INFO - |student_logging_function - check_email_mobile| -> get data from database success
+2024-09-20 06:51:24,072 - INFO - |student_login_function - insert_student_data| new data row add successfully thushjhh-hnnz
+2024-09-20 06:51:24,072 - INFO - /user/registerStudent -> insert data successfully
+2024-09-20 06:53:37,411 - INFO - |Mails - mail| -> email send to thushanmadhusankahj3@gmail.com
+2024-09-20 06:53:37,412 - INFO - /user/registerStudent -> email send successfully thushanmadhusankahj3@gmail.com
+2024-09-20 06:54:16,282 - INFO - |student_logging_function - check_email_mobile| -> get data from database success
+2024-09-20 06:55:46,174 - INFO - |student_logging_function - check_email_mobile| -> get data from database success
+2024-09-20 06:55:46,182 - INFO - |student_login_function - insert_student_data| new data row add successfully thush-f7ne
+2024-09-20 06:55:46,182 - INFO - /user/registerStudent -> insert data successfully
+2024-09-20 06:57:59,552 - INFO - |Mails - mail| -> email send to thushanmadhusanka3@gmail.com
+2024-09-20 06:57:59,553 - INFO - /user/registerStudent -> email send successfully thushanmadhusanka3@gmail.com
+2024-09-20 07:00:24,847 - INFO - redis database is connected successfully
+2024-09-20 07:00:24,980 - INFO - Database is created
+2024-09-20 07:02:13,079 - INFO - redis database is connected successfully
+2024-09-20 07:02:13,206 - INFO - Database is created
+2024-09-20 07:30:10,540 - INFO - redis database is connected successfully
+2024-09-20 07:30:10,727 - INFO - Database is created

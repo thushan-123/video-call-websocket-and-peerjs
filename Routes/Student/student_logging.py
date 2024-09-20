@@ -44,8 +44,8 @@ async def registering_student(request: RegisterStudent, db: Session = Depends(ge
                 hash_password = password_hash(password)
                 result = insert_student_data(db, request.f_name, request.l_name, user_name, request.email,
                                              request.mobile, hash_password)
-                app_log.info("/user/registerStudent -> insert data successfully")
                 if result:
+                    app_log.info("/user/registerStudent -> insert data successfully")
                     mail_ = Mail(request.email, "Exdeme Username and Password",
                                  student_waite_mail(request.f_name, request.l_name, user_name, password))
                     mail_.send()

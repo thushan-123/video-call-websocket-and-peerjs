@@ -50,8 +50,8 @@ async def handle_conference(websocket: WebSocket, user_id: str):
             # Send notification to users about the conference
             try:
                 await websocket.send_text(json.dumps(
-                    {"status": True, "type": "conference_started", "peer_id": redis_call_client.get(other_user).decode("utf-8")}))
-                await send_to_user(other_user, {"status": True, "type": "conference_started",
+                    {"status": True, "type": "conference_started","requested": False, "peer_id": redis_call_client.get(other_user).decode("utf-8")}))
+                await send_to_user(other_user, {"status": True, "type": "conference_started","requested": True,
                                                 "peer_id": redis_call_client.get(user_id).decode("utf-8")})
                 call_log.info(f"Conference started between {user_id} - {other_user}")
             except Exception as e:
@@ -125,4 +125,3 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str, peer_connection
             call_log.error(f"{e}")
     except Exception as e:
         call_log.error(f"Error in websocket endpoint: {e}")
-

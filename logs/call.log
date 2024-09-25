@@ -453,3 +453,13 @@
 2024-09-20 14:30:24,733 - INFO - User thush connected - peer connection id: 1234
 2024-09-20 14:33:43,655 - INFO - User thush disconnected
 2024-09-20 14:33:43,655 - INFO - User thush disconnected but was not in a conference.
+2024-09-21 15:59:24,758 - INFO - User thush connected.
+2024-09-21 15:59:30,423 - INFO - User kamal connected.
+2024-09-21 16:00:07,351 - INFO - Message sent to thush: {'status': True, 'type': 'conference_started', 'url': 'https://meet.jit.si/kmdbbn2srg'}
+2024-09-21 16:00:07,351 - INFO - Conference started between kamal - thush
+2024-09-21 16:08:22,911 - INFO - User kamal disconnected
+2024-09-21 16:08:22,912 - INFO - Conference between kamal and thush ended. Duration: 0:08:15.560626
+2024-09-21 16:08:22,928 - ERROR - Error sending message to thush: 
+2024-09-21 16:08:22,928 - INFO - User kamal disconnected. thush is now waiting for new users.
+2024-09-21 16:08:22,929 - INFO - User thush disconnected
+2024-09-21 16:08:22,930 - INFO - User thush disconnected but was not in a conference.

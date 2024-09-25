@@ -1,2 +1,5 @@
 
 2024-09-20 14:33:44,841 - ERROR - redis connection -> Error -2 connecting to redis:6379. Name or service not known.
+2024-09-21 15:57:09,288 - ERROR - redis connection -> Error -2 connecting to redis:6379. Name or service not known.
+2024-09-21 15:59:22,128 - ERROR - redis connection -> Error -2 connecting to redis:6379. Name or service not known.
+2024-09-21 16:08:24,272 - ERROR - redis connection -> Error -2 connecting to redis:6379. Name or service not known.

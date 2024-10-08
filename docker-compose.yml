@@ -56,7 +56,7 @@ services:
       - caddy_data:/data
       - caddy_config:/config
       - ./Caddyfile:/etc/caddy/Caddyfile
-      - ./website:/var/www
+      - ./website:/var/www/website
     depends_on:
       - fastapi_app
 

@@ -1,6 +1,6 @@
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from Databases.redis_connection import redis_call_client
-from Loggers.log import call_log, conference_log
+from Loggers.log import call_log, conference_log, err_log
 import json
 import random
 from Functions.function import get_sl_DateTime
@@ -87,9 +87,9 @@ async def handle_disconnection(disconnected_user: str):
             conferences[other_user] = new_user
             conferences[new_user] = other_user
 
-            await send_to_user(other_user, {"status": True, "type": "conference_user_replaced",
+            await send_to_user(other_user, {"status": True, "type": "conference_user_replaced","requested": True,
                                             "peer_id": redis_call_client.get(new_user).decode("utf-8")})
-            await send_to_user(new_user, {"status": False, "type": "conference_started",
+            await send_to_user(new_user, {"status": False, "type": "conference_started","requested": False,
                                           "peer_id": redis_call_client.get(other_user).decode("utf-8")})
             call_log.info(
                 f"User {disconnected_user} disconnected. Replaced with {new_user} in conference with {other_user}.")
@@ -125,3 +125,6 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str, peer_connection
             call_log.error(f"{e}")
     except Exception as e:
         call_log.error(f"Error in websocket endpoint: {e}")
+
+
+

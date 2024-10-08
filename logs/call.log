@@ -463,3 +463,6 @@
 2024-09-21 16:08:22,928 - INFO - User kamal disconnected. thush is now waiting for new users.
 2024-09-21 16:08:22,929 - INFO - User thush disconnected
 2024-09-21 16:08:22,930 - INFO - User thush disconnected but was not in a conference.
+2024-09-26 16:53:31,614 - INFO - User namal connected - peer connection id: 1235gf
+2024-09-26 16:53:33,879 - INFO - User namal disconnected
+2024-09-26 16:53:33,879 - INFO - User namal disconnected but was not in a conference.

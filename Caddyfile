@@ -14,6 +14,8 @@ https://app.testninja.info {
     root * /var/www/website
     file_server
 
+    try_files {path} /index.html
+
     encode gzip
 
     log {

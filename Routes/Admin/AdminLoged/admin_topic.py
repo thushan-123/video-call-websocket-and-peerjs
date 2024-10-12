@@ -104,7 +104,7 @@ async def get_daily_call_logs(request: DailyCalls, token: str = Depends(oauth2_s
             if result is not None:
                 return JSONResponse(status_code=200, content={"status": True , "data": result})
             else:
-                return JSONResponse(status_code=400, content={"status": False, "data": "not found"})
+                return JSONResponse(status_code=403, content={"status": False, "data": "not found"})
         else:
             app_log.warning("/admin/logged/callLogs -> unauthorized access")
             return JSONResponse(status_code=401, content={"status": False, "detail": "unauthorized access"})

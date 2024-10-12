@@ -15,8 +15,8 @@ ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("TIME"))
 def create_access_token(data: dict,admin=False):
     try:
         to_encode = data.copy()
-        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
-        to_encode.update({"exp": expire})
+        #expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+        #to_encode.update({"exp": expire})
         if admin:
             encoded_jwt = jwt.encode(to_encode, ADMIN_SECRET_KEY, algorithm=ALGORITHM)
             app_log.info("|auth - create_access_token| create successfully")

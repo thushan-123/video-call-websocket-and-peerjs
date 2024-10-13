@@ -33,6 +33,14 @@ async def send_to_user(user_id: str, message: dict):
         call_log.error(f"Error sending message to {user_id}: {e}")
 
 
+async def broadcast_message(message: dict):
+    for user_ws in connections.values():
+        try:
+            await user_ws.send_text(json.dumps(message))
+        except Exception as e:
+            call_log.error(f"Error broadcasting message: {e}")
+
+
 # Handle the conference
 async def handle_conference(websocket: WebSocket, user_id: str):
     if len(connected_users) >= 2 and len(connected_users) % 2 == 0:
@@ -107,6 +115,8 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str, peer_connection
     connections[user_id] = websocket  # Store the WebSocket connection
     redis_call_client.set(user_id, peer_connection_id)
     call_log.info(f"User {user_id} connected - peer connection id: {peer_connection_id}")
+
+    await broadcast_message({"status": True, "type": "connected_user_count", "count": len(connected_users)})
 
     try:
         while True:

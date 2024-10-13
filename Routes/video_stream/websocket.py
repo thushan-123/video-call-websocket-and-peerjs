@@ -130,6 +130,7 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str, peer_connection
         try:
             connected_users.remove(user_id)
             del connections[user_id]  # Remove the WebSocket connection
+            await broadcast_message({"status": True, "type": "connected_user_count", "count": len(connected_users)})
             await handle_disconnection(user_id)
         except Exception as e:
             call_log.error(f"{e}")

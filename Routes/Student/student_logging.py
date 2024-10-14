@@ -48,7 +48,7 @@ async def registering_student(request: RegisterStudent, db: Session = Depends(ge
                     app_log.info("/user/registerStudent -> insert data successfully")
                     mail_ = Mail(request.email, "Exdeme Username and Password",
                                  student_waite_mail(request.f_name, request.l_name, user_name, password))
-                    await mail_.send()
+                    mail_.send()
                     app_log.info(f"/user/registerStudent -> email send successfully {request.email}")
                     return JSONResponse(status_code=200,
                                         content={"status": True, "detail": "data insert success, email is send"})
@@ -72,7 +72,7 @@ async def student_change_password(request: ResetPassword, db: Session = Depends(
                 OTP = get_OTP()
                 redis_otp_client.set(request.email, OTP, ex=120)
                 mail_ = Mail(request.email, "Edexme One Time Password", html_content_OTP(OTP))
-                await mail_.send()
+                mail_.send()
                 app_log.info("/user/forgetPassword -> send otp to email successfully")
                 return JSONResponse(status_code=200, content={"status": True, "detail": "OTP sent to email"})
             else:

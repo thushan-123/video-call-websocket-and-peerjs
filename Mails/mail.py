@@ -21,7 +21,7 @@ class Mail:
         self.subject = subject
         self.html_content = html_content
 
-    async def send(self) -> bool:
+    def send(self):
         from_email = COMPANY_EMAIL
         password = COMPANY_EMAIL_PASSWORD
 
@@ -42,8 +42,8 @@ class Mail:
             text = message.as_string()
             server.sendmail(from_email, self.receiver, text)
             app_log.info(f"|Mails - mail| -> email send to {self.receiver}")
-            return True
+            #return True
         except Exception as e:
             print(e)
             err_log.error(f"| Mails - mail | - Email Send Failed - {e}")
-            return False
+            #return False

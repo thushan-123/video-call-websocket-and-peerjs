@@ -34,13 +34,12 @@ async def getting_today_topics(token: str = Depends(oauth2_schme), db: Session =
 
 @router.put("/updateStudent")
 async def update_student_details(request:UpdateStudent, token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
-    global username
     try:
         data_set = verify_token(token)
         if not (data_set is None):
             if request.f_name != data_set["f_name"]:
-                username = generate_unique_username(request.f_name)
-                result = update_student(db,data_set["id"],request.f_name,request.l_name,request.email,request.mobile,username)
+                #username = generate_unique_username(request.f_name)
+                result = update_student(db,data_set["id"],request.f_name,request.l_name,request.email,request.mobile)
             else:
                 result = update_student(db,data_set["id"],request.f_name,request.l_name,request.email,request.mobile)
             if result:

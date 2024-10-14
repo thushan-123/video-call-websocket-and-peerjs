@@ -76,7 +76,7 @@ async def admin_change_password(admin: ForgotPassword, db: Session = Depends(get
             mail = admin.email
             redis_otp_client.set(mail, gen_otp, ex=360)  # redis -> set OTP with 360s expiration
             mail = Mail(admin.email, "One Time Password", html_content_OTP(gen_otp))
-            await mail.send()
+            mail.send()
             app_log.info(f"/admin/forgetPassword -> Email Send Success - receiver: {admin.email}")
             return JSONResponse(status_code=200, content={"status": True, "detail": "email send successfully"})
 

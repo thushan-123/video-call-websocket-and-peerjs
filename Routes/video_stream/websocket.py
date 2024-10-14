@@ -43,28 +43,31 @@ async def broadcast_message(message: dict):
 
 # Handle the conference
 async def handle_conference(websocket: WebSocket, user_id: str):
-    if len(connected_users) >= 2 and len(connected_users) % 2 == 0:
-        # Random select another user and create conference
-        potential_users = [user for user in connected_users if user not in conferences and user != user_id]
-        if potential_users:
-            other_user = random.choice(potential_users)
-            conferences[user_id] = other_user
-            conferences[other_user] = user_id
+    # Select any available user who is not in a conference
+    potential_users = [user for user in connected_users if user not in conferences and user != user_id]
 
-            # Record the start time of the conference
-            start_time = get_sl_DateTime()
-            conference_start_times[(user_id, other_user)] = start_time
+    if potential_users:
+        # Select a random user from the potential list
+        other_user = random.choice(potential_users)
+        conferences[user_id] = other_user
+        conferences[other_user] = user_id
 
-            # Send notification to users about the conference
-            try:
-                await websocket.send_text(json.dumps(
-                    {"status": True, "type": "conference_started","requested": False, "peer_id": redis_call_client.get(other_user).decode("utf-8")}))
-                await send_to_user(other_user, {"status": True, "type": "conference_started","requested": True,
-                                                "peer_id": redis_call_client.get(user_id).decode("utf-8")})
-                call_log.info(f"Conference started between {user_id} - {other_user}")
-            except Exception as e:
-                call_log.error(f"Error starting conference between {user_id} - {other_user} : {e}")
+        # Record the start time of the conference
+        start_time = get_sl_DateTime()
+        conference_start_times[(user_id, other_user)] = start_time
+
+        # Notify both users about the conference start
+        try:
+            await websocket.send_text(json.dumps(
+                {"status": True, "type": "conference_started", "requested": False,
+                 "peer_id": redis_call_client.get(other_user).decode("utf-8")}))
+            await send_to_user(other_user, {"status": True, "type": "conference_started", "requested": True,
+                                            "peer_id": redis_call_client.get(user_id).decode("utf-8")})
+            call_log.info(f"Conference started between {user_id} - {other_user}")
+        except Exception as e:
+            call_log.error(f"Error starting conference between {user_id} - {other_user} : {e}")
     else:
+        # No available user, wait for more users to join
         await websocket.send_text(json.dumps({"status": False, "type": "wait_for_users"}))
         call_log.info(f"User {user_id} is waiting for more users to join")
 

@@ -29,7 +29,7 @@ async def adding_student(request: AddStudent, token: str = Depends(oauth2_schme)
             if get_result:
                 mail_ = Mail(request.email, "Exdeme Login Details",
                              html_content_username_password(request.f_name, request.l_name, username, password))
-                mail_.send()
+                await mail_.send()
                 app_log.info("/admin/logged/student/addStudent -> email send and student data add successfully")
                 return JSONResponse(status_code=200,
                                     content={"status": True, "detail": "data added and email send to student"})

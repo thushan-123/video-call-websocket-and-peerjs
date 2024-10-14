@@ -45,9 +45,6 @@ async def update_student_details(request:UpdateStudent, token: str = Depends(oau
                 result = update_student(db,data_set["id"],request.f_name,request.l_name,request.email,request.mobile)
             if result:
                 app_log.info(f"/user/logged/updateStudent -> update success {request.email} ")
-                if request.f_name != data_set["f_name"]:
-                    mail_ = Mail(request.email,"Your New Username",html_content_change_username(request.f_name,request.l_name,username))
-                    mail_.send()
                 app_log.info("/user/logged/updateStudent -> new username send to email successfully")
                 data_dict ={"id": data_set["id"], "f_name": request.f_name, "l_name": request.l_name, "email": request.email, "mobile": request.mobile}
                 return JSONResponse(status_code=200, content={"status": True, "detail": "update successfully", "token": create_access_token(data_dict)})
@@ -60,6 +57,12 @@ async def update_student_details(request:UpdateStudent, token: str = Depends(oau
     except Exception as e:
         err_log.error(f"/user/logged/updateStudent -> {e}")
         return JSONResponse(status_code=400, content={"status": False, "detail": "Bad request"})
+
+'''
+                    if request.f_name != data_set["f_name"]:
+                    mail_ = Mail(request.email,"Your New Username",html_content_change_username(request.f_name,request.l_name,username))
+                    mail_.send()
+'''
 
 
 

@@ -101,8 +101,9 @@ def search_student(db: Session, search: str):
             search = int(search)
             result_set_id = query.filter(models.User.id == search).all()
             result_set_mobile = query.filter(models.User.mobile == search).all()
+            result_set_trainer = query.filter(models.User.trainer_id == search).all()
             app_log.info("|student_function - search_student| -> search value is int , get result id or mobile")
-            result_set = result_set_id + result_set_mobile
+            result_set = result_set_id + result_set_mobile + result_set_trainer
             if len(result_set) > 0:
                 for row in result_set:
                     row_dict = {"id": row.id, "trainer_id": row.trainer_id, "f_name": row.f_name, "l_name": row.l_name,

@@ -21,7 +21,7 @@ class Mail:
         self.subject = subject
         self.html_content = html_content
 
-    def send(self) -> bool:
+    async def send(self) -> bool:
         from_email = COMPANY_EMAIL
         password = COMPANY_EMAIL_PASSWORD
 

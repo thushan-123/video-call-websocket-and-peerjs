@@ -6,6 +6,7 @@ http://admin.edexme.lk {
     redir https://admin.edexme.lk{uri}
 }
 
+
 https://api.edexme.lk {
     reverse_proxy fastapi_app:8000
 }

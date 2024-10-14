@@ -18,8 +18,8 @@ services:
       - SECRET_KEY=puwar0eqmh2tBMqXBEE/cAJ0bbFufsNKQLCMO463qY4hOk9JQgFDJrp4Fdbk0oK
       - ALGORITHM=HS256
       - TIME=43200
-      - COMPANY_EMAIL=thushanmadusanka456@gmail.com
-      - COMPANY_EMAIL_PASSWORD=blsz ecbc tbjr fxst
+      - COMPANY_EMAIL=edexmehelp@gmail.com
+      - COMPANY_EMAIL_PASSWORD=cogg cfvz unyc lmgl
       - TZ=Asia/Colombo
 
     volumes:

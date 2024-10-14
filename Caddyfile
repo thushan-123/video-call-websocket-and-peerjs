@@ -1,16 +1,16 @@
-http://testninja.info {
-    redir https://testninja.info{uri}
+http://api.edexme.lk {
+    redir https://api.edexme.lk{uri}
 }
 
-https://testninja.info {
+http://admin.edexme.lk {
+    redir https://admin.edexme.lk{uri}
+}
+
+https://api.edexme.lk {
     reverse_proxy fastapi_app:8000
 }
 
-http://app.testninja.info {
-    redir https://app.testninja.info{uri}
-}
-
-https://app.testninja.info {
+https://admin.edexme.lk {
     root * /var/www/website
     file_server
 

@@ -34,7 +34,7 @@ def html_content_username_password(f_name: str, l_name: str, username: str, pass
                         <body>
                             <div class="email-container">
                                 <div class="email-header">
-                                    Exedme Mobile
+                                    Edexme Mobile
                                 </div>
                                 <div class="email-body">
                                     <p><b>Dear {f_name} {l_name} ,</b></p>
@@ -84,7 +84,7 @@ def html_content_OTP(otp: str):
                         <body>
                             <div class="email-container">
                                 <div class="email-header">
-                                    Exedme Mobile
+                                    Edexme Mobile
                                 </div>
                                 <div class="email-body">
                                     <p><b>OTP valied for the 2 min</b></p>
@@ -182,7 +182,7 @@ def student_waite_mail(f_name: str, l_name: str, username: str, password: str):
                             <body>
                                 <div class="email-container">
                                     <div class="email-header">
-                                        Exedme Mobile
+                                        Edexme Mobile
                                     </div>
                                     <div class="email-body">
                                         <p><b>Dear {f_name} {l_name},</b></p>
@@ -233,7 +233,7 @@ def html_content_change_username(f_name: str, l_name: str, username: str):
                                 <body>
                                     <div class="email-container">
                                         <div class="email-header">
-                                            Exedme Mobile
+                                            Edexme Mobile
                                         </div>
                                         <div class="email-body">
                                             <p><b>Dear {f_name} {l_name},</b></p>

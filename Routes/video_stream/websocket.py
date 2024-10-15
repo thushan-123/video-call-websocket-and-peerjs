@@ -74,13 +74,12 @@ async def handle_conference(user_id: str):
             call_log.error(f"Error starting conference between {user_id} - {other_user} : {e}")
     else:
         # No available user, wait for more users to join
-        await send_to_user(user_id,{"status": False, "type": "wait_for_users"})
+        await send_to_user(user_id,{"type": "wait_for_users"})
         call_log.info(f"User {user_id} is waiting for more users to join")
 
 
 async def answer_call_message_send(other_user:str , user_id: str):
-    await send_to_user(other_user, {"status": True, "type": "answer_call", "requested": True,
-                                            "peer_id": redis_call_client.get(user_id).decode("utf-8")})
+    await send_to_user(other_user, {"type": "call_to_signal","peer_id": redis_call_client.get(user_id).decode("utf-8")})
 
 
 # Handle disconnection
@@ -116,7 +115,7 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str, peer_connection
     redis_call_client.set(user_id, peer_connection_id)
     call_log.info(f"User {user_id} connected - peer connection id: {peer_connection_id}")
 
-    await broadcast_message({"status": True, "type": "connected_user_count", "count": len(connected_users)})
+    await broadcast_message({"type": "connected_user_count", "count": len(connected_users)})
 
     try:
         while True:
@@ -125,7 +124,7 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str, peer_connection
 
             if message["type"] == "join_conference":
                 await handle_conference(user_id)
-            elif message["type"] == "answer_call":
+            elif message["type"] == "call_to_signal":
                 if message["other_user"]:
                     await answer_call_message_send(message["other_user"],user_id)
 
@@ -134,7 +133,7 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str, peer_connection
         try:
             connected_users.remove(user_id)
             del connections[user_id]  # Remove the WebSocket connection
-            await broadcast_message({"status": True, "type": "connected_user_count", "count": len(connected_users)})
+            await broadcast_message({"type": "connected_user_count", "count": len(connected_users)})
             await handle_disconnection(user_id)
         except Exception as e:
             call_log.error(f"{e}")

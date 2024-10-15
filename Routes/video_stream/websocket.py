@@ -44,6 +44,12 @@ async def broadcast_message(message: dict):
 
 # Handle the conference
 async def handle_conference(user_id: str):
+    if user_id in conferences:
+        # Notify the user that they are already in a conference
+        await send_to_user(user_id, {"status": False, "type": "already_in_conference",
+                                     "message": "You are already in a conference"})
+        call_log.info(f"User {user_id} attempted to join a new conference but is already in a conference.")
+        return
     # Select any available user who is not in a conference
     potential_users = [user for user in connected_users if user not in conferences and user != user_id]
 

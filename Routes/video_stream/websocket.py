@@ -77,8 +77,9 @@ async def handle_conference(user_id: str):
         await send_to_user(user_id,{"status": False, "type": "wait_for_users"})
         call_log.info(f"User {user_id} is waiting for more users to join")
 
+
 async def answer_call_message_send(other_user:str , user_id: str):
-    await send_to_user(other_user, {"status": True, "type": "conference_started", "requested": True,
+    await send_to_user(other_user, {"status": True, "type": "answer_call", "requested": True,
                                             "peer_id": redis_call_client.get(user_id).decode("utf-8")})
 
 

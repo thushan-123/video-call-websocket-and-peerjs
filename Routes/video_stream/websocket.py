@@ -67,9 +67,8 @@ async def handle_conference(user_id: str):
         # Notify both users about the conference start
         try:
             await send_to_user(user_id,{"status": True, "type": "conference_started", "requested": False,
-                 "peer_id": redis_call_client.get(other_user).decode("utf-8")})
-            await send_to_user(other_user, {"status": True, "type": "conference_started", "requested": True,
-                                            "peer_id": redis_call_client.get(user_id).decode("utf-8")})
+                 "other_user": other_user,"peer_id": redis_call_client.get(other_user).decode("utf-8")})
+            #await send_to_user(other_user, {"status": True, "type": "conference_started", "requested": True,"peer_id": redis_call_client.get(user_id).decode("utf-8")})
             call_log.info(f"Conference started between {user_id} - {other_user}")
         except Exception as e:
             call_log.error(f"Error starting conference between {user_id} - {other_user} : {e}")
@@ -77,6 +76,10 @@ async def handle_conference(user_id: str):
         # No available user, wait for more users to join
         await send_to_user(user_id,{"status": False, "type": "wait_for_users"})
         call_log.info(f"User {user_id} is waiting for more users to join")
+
+async def answer_call_message_send(other_user:str , user_id: str):
+    await send_to_user(other_user, {"status": True, "type": "conference_started", "requested": True,
+                                            "peer_id": redis_call_client.get(user_id).decode("utf-8")})
 
 
 # Handle disconnection
@@ -121,6 +124,10 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str, peer_connection
 
             if message["type"] == "join_conference":
                 await handle_conference(user_id)
+            elif message["type"] == "answer_call":
+                if message["other_user"]:
+                    await answer_call_message_send(message["other_user"],user_id)
+
     except WebSocketDisconnect:
         call_log.info(f"User {user_id} disconnected")
         try:

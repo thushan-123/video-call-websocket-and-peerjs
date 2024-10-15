@@ -16,6 +16,7 @@ connections = {}
 # Ongoing conferences
 conferences = {}
 
+
 # Start times of conferences
 conference_start_times = {}
 
@@ -42,7 +43,7 @@ async def broadcast_message(message: dict):
 
 
 # Handle the conference
-async def handle_conference(websocket: WebSocket, user_id: str):
+async def handle_conference(user_id: str):
     # Select any available user who is not in a conference
     potential_users = [user for user in connected_users if user not in conferences and user != user_id]
 
@@ -52,15 +53,15 @@ async def handle_conference(websocket: WebSocket, user_id: str):
         conferences[user_id] = other_user
         conferences[other_user] = user_id
 
+
         # Record the start time of the conference
         start_time = get_sl_DateTime()
         conference_start_times[(user_id, other_user)] = start_time
 
         # Notify both users about the conference start
         try:
-            await websocket.send_text(json.dumps(
-                {"status": True, "type": "conference_started", "requested": False,
-                 "peer_id": redis_call_client.get(other_user).decode("utf-8")}))
+            await send_to_user(user_id,{"status": True, "type": "conference_started", "requested": False,
+                 "peer_id": redis_call_client.get(other_user).decode("utf-8")})
             await send_to_user(other_user, {"status": True, "type": "conference_started", "requested": True,
                                             "peer_id": redis_call_client.get(user_id).decode("utf-8")})
             call_log.info(f"Conference started between {user_id} - {other_user}")
@@ -68,7 +69,7 @@ async def handle_conference(websocket: WebSocket, user_id: str):
             call_log.error(f"Error starting conference between {user_id} - {other_user} : {e}")
     else:
         # No available user, wait for more users to join
-        await websocket.send_text(json.dumps({"status": False, "type": "wait_for_users"}))
+        await send_to_user(user_id,{"status": False, "type": "wait_for_users"})
         call_log.info(f"User {user_id} is waiting for more users to join")
 
 
@@ -90,25 +91,11 @@ async def handle_disconnection(disconnected_user: str):
                 f"Conference between {disconnected_user} and {other_user} ended. Duration: {meeting_duration}")
             conference_log.info(f"Conference between {disconnected_user} and {other_user} - Duration: {meeting_duration}")
 
-        potential_users = [user for user in connected_users if user not in conferences and user != other_user]
-
-        # Check if there is another user to replace the disconnected one
-        if potential_users:
-            new_user = random.choice(potential_users)
-            conferences[other_user] = new_user
-            conferences[new_user] = other_user
-
-            await send_to_user(other_user, {"status": True, "type": "conference_user_replaced","requested": True,
-                                            "peer_id": redis_call_client.get(new_user).decode("utf-8")})
-            await send_to_user(new_user, {"status": False, "type": "conference_started","requested": False,
-                                          "peer_id": redis_call_client.get(other_user).decode("utf-8")})
-            call_log.info(
-                f"User {disconnected_user} disconnected. Replaced with {new_user} in conference with {other_user}.")
-        else:
-            await send_to_user(other_user, {"status": False, "type": "waiting_for_users"})
-            call_log.info(f"User {disconnected_user} disconnected. {other_user} is now waiting for new users.")
+            await handle_conference(other_user)
     else:
         call_log.info(f"User {disconnected_user} disconnected but was not in a conference.")
+
+
 
 
 @router.websocket("/createConference/{user_id}/{peer_connection_id}")
@@ -127,7 +114,7 @@ async def websocket_endpoint(websocket: WebSocket, user_id: str, peer_connection
             message = json.loads(data)
 
             if message["type"] == "join_conference":
-                await handle_conference(websocket, user_id)
+                await handle_conference(user_id)
     except WebSocketDisconnect:
         call_log.info(f"User {user_id} disconnected")
         try:

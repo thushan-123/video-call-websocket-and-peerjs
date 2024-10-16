@@ -24,6 +24,7 @@ services:
 
     volumes:
       - .:/app
+    restart: always
 
   mariadb:
     image: mariadb:latest
@@ -38,6 +39,7 @@ services:
     volumes:
       - mariadb_data:/var/lib/mysql
       - ./db-init:/docker-entrypoint-initdb.d
+    restart: always
 
   redis:
     image: redis:latest
@@ -46,6 +48,7 @@ services:
       - "6379:6379"
     volumes:
       - redis_data:/data
+    restart: always
 
   caddy:
     image: caddy:latest
@@ -58,6 +61,7 @@ services:
       - caddy_config:/config
       - ./Caddyfile:/etc/caddy/Caddyfile
       - ./website:/var/www/website
+    restart: always
     depends_on:
       - fastapi_app
 

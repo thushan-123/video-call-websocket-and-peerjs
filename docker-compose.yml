@@ -64,7 +64,6 @@ services:
     restart: always
     depends_on:
       - fastapi_app
-      - peerjs_server
 
 
 

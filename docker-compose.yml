@@ -26,6 +26,17 @@ services:
       - .:/app
     restart: always
 
+  peerjs_server:
+    build:
+      context: ./PeerJs_server
+      dockerfile: Dockerfile
+    container_name: edexme_peerjs_server
+    ports:
+      - 9000:9000
+    environment:
+      - PEERJS_PORT=9000
+      - PEERJS_KEY=peerjs
+
   mariadb:
     image: mariadb:latest
     container_name: edexme_mariadb_DB
@@ -64,6 +75,8 @@ services:
     restart: always
     depends_on:
       - fastapi_app
+      - peerjs_server
+
 
 
 volumes:

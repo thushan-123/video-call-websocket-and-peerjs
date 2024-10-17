@@ -15,6 +15,10 @@ https://api.edexme.lk {
     reverse_proxy fastapi_app:8000
 }
 
+https://peer.edexme.lk {
+    reverse_proxy peerjs_server:9000
+}
+
 https://admin.edexme.lk {
     root * /var/www/website
     file_server

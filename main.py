@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from Routes.Admin import admin
 from Routes.Student import student_logging
 from Routes.video_stream import websocket
-from Loggers.log import app_log, err_log
+from Loggers.log import app_log, err_log, conference_log, log_conference
 import uvicorn
 
 load_dotenv()

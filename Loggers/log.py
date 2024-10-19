@@ -82,4 +82,4 @@ def log_conference(message):
     update_conference_log_file()
     conference_log.info(message)
 
-
+log_conference("Conference between thush-4oik and ravindu-i0da - Duration: 0:00:11.626176")

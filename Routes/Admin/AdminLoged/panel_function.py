@@ -69,7 +69,7 @@ def delete_topic_data(db: Session, topic_id: int):
 def get_call_logs(date: str):
     try:
         logs_list = []
-        with open("logs/daily_conference_logs/"+ str(date), "r") as file:
+        with open("logs/daily_conference_logs/"+ str(date)+".log", "r") as file:
             for line in file:
                 logs_list.append(line.strip())
         app_log.info(f"|panel_function - get_call_logs| -> file read successfully: Date {date}")

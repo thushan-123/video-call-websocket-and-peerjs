@@ -11,7 +11,7 @@ from Mails.mail import Mail
 from Mails.html import student_waite_mail, html_content_OTP
 from .student_logging_schema import StudentLogin, RegisterStudent, ResetPassword, GetOtp, ChangePassword
 from .student_logging_function import check_registered_student, check_email_mobile, insert_student_data, check_student, \
-    get_student_data, update_password
+    get_student_data, update_password, check_user_db
 from .StudentLogged import authStudent
 
 router = APIRouter()
@@ -127,11 +127,15 @@ async def changing_password(request: ChangePassword, token: str = Depends(oauth2
 
 
 @router.get("/verifyStudentToken")
-async def user_verify_token(token: str = Depends(oauth2_schme)):
+async def user_verify_token(token: str = Depends(oauth2_schme), db: Session = Depends(get_db)):
     try:
-        result = verify_token(token)
-        if not (result is None):
-            return JSONResponse(status_code=200, content={"status": True, "data": result})
+        payload = verify_token(token)
+        if not (payload is None):
+            result = check_user_db(db, payload['user_name'])
+            if result:
+                return JSONResponse(status_code=200, content={"status": True})
+            else:
+                return JSONResponse(status_code=403, content={"status": False})
         else:
             return JSONResponse(status_code=401, content={"status": False, "detail": "unauthorized access"})
     except Exception as e:

@@ -99,3 +99,18 @@ def update_password(db: Session, id: int, username: str, password: str) -> bool:
     except Exception as e:
         err_log.error(f"|student_logging_function| -> {e}")
         return False
+
+def check_user_db(db: Session, username:str) -> bool:
+    try:
+        result = db.query(models.User).filter(models.User.user_name == username,models.User.is_blocked == False).first()
+        if result:
+            return True
+        else:
+            return False
+    except Exception as e:
+        err_log.error(f"|student_logging_function - check_user_db| -> {e}")
+        return False
+
+
+
+

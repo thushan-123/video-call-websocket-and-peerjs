@@ -18,8 +18,8 @@ services:
       - SECRET_KEY=puwar0eqmh2tBMqXBEE/cAJ0bbFufsNKQLCMO463qY4hOk9JQgFDJrp4Fdbk0oK
       - ALGORITHM=HS256
       - TIME=43200
-      - COMPANY_EMAIL=edexmehelp@gmail.com
-      - COMPANY_EMAIL_PASSWORD=cogg cfvz unyc lmgl
+      - COMPANY_EMAIL=example@mail.com
+      - COMPANY_EMAIL_PASSWORD=
       - TZ=Asia/Colombo
 
     volumes:
@@ -33,7 +33,7 @@ services:
       MYSQL_ROOT_PASSWORD: SHzeQizz
       MYSQL_DATABASE: edexme_db
       MYSQL_USER: edexme
-      MYSQL_PASSWORD: SHzeQizz
+      MYSQL_PASSWORD: 
     ports:
       - "3306:3306"
     volumes:
